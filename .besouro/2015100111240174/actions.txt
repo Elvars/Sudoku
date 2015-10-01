@@ -242,3 +242,7 @@ EditAction 1443693037317 SudokuVerifier.java 1275 4 4 0
 EditAction 1443693195205 SudokuVerifier.java 1321 4 4 0
 EditAction 1443693212252 SudokuVerifier.java 1285 4 4 0
 EditAction 1443693242755 SudokuVerifier.java 1314 4 5 0
+RefactoringAction 1443693262093 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443693266611 TestSudokuVerifier.java RENAME test=>void testStringSplitt FIELD
+RefactoringAction 1443693271634 TestSudokuVerifier.java RENAME testStringSplitt=>void testStringSplitter() METHOD
+EditAction 1443693327346 TestSudokuVerifier.java 1554 7 19 7

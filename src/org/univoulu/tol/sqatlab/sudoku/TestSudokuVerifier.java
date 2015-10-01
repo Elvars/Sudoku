@@ -79,6 +79,18 @@ public class TestSudokuVerifier {
 	}
 	
 	
+	@Test
+	public void testStringSplitter()
+	{
+		
+		candidate = "123456789";
+		
+		SudokuVerifier.splitString(candidate);
+		
+		assertEquals(123456789, candidate);
+	}
+	
+	
 	
 
 }
