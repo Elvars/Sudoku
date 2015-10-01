@@ -41,7 +41,7 @@ public class SudokuVerifier {
 		{
 			for(int y=0; y<9; y++)
 			{
-				allArrays[i][y] = chars[y];
+				allArrays[0][y] = chars[y];
 			}
 		}
 		
