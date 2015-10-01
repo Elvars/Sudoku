@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 	public void verifySudokuString() {
 		
 		//arrange
-		
+		candidate = "1";
 		
 		//act
 		SudokuVerifier.verify(candidate);

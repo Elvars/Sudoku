@@ -10,3 +10,6 @@ EditAction 1443688745634 TestSudokuVerifier.java 259 1 1 1
 RefactoringAction 1443688834911 TestSudokuVerifier.java ADD String candidate FIELD
 EditAction 1443688898083 SudokuVerifier.java 205 1 1 0
 EditAction 1443688922932 TestSudokuVerifier.java 338 1 2 1
+UnitTestCaseAction 1443688927596 GildedRoseTest.java FAIL
+UnitTestSessionAction 1443688927599 GildedRoseTest FAIL
+EditAction 1443688990787 TestSudokuVerifier.java 354 1 3 1
