@@ -58,13 +58,24 @@ public class TestSudokuVerifier {
 	
 	
 	@Test
-	public void testCandidateSolutionLenght()
+	public void testCandidateSolutionLenghtReturns1()
 	{
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
 		SudokuVerifier.checkStringLenght(candidate);
 		
 		assertEquals(1, 1);
+	}
+	
+	
+	@Test
+	public void testCandidateSolutionLenghtReturns0()
+	{
+		candidate = "112321";
+		
+		SudokuVerifier.checkStringLenght(candidate);
+		
+		assertEquals(0, 1);
 	}
 	
 	
