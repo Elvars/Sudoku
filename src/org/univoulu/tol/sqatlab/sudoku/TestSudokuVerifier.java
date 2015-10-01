@@ -40,7 +40,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testForPositiveNumber()
 	{
-		number = 0;
+		number = 1;
 		
 		SudokuVerifier.isPositive(number);
 		
