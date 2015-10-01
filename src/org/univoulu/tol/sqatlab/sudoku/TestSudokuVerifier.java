@@ -51,7 +51,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testForNegativeNumber()
 	{
-		number = -100;
+		number = 20;
 		
 		SudokuVerifier.isPositive(number);
 		
