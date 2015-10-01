@@ -84,3 +84,6 @@ EditAction 1443690508634 TestSudokuVerifier.java 955 4 12 4
 UnitTestCaseAction 1443690511585 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443690511585 TestSudokuVerifier OK
 EditAction 1443690533087 TestSudokuVerifier.java 954 4 12 4
+UnitTestCaseAction 1443690534732 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443690534732 TestSudokuVerifier FAIL
+EditAction 1443690545553 TestSudokuVerifier.java 953 4 12 4
