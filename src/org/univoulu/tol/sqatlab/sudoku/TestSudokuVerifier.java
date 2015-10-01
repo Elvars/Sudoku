@@ -41,10 +41,9 @@ public class TestSudokuVerifier {
 	public void testForPositiveNumber()
 	{
 		number = -1;
+	
 		
-		SudokuVerifier.isPositive(number);
-		
-		assertTrue(true);
+		assertTrue("true", SudokuVerifier.isPositive(number));
 	}
 	
 	
