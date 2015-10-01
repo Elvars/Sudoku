@@ -353,3 +353,7 @@ RefactoringAction 1443695640991 SudokuVerifier.java ADD import java.util.ArrayLi
 RefactoringAction 1443695640992 SudokuVerifier.java ADD import java.util.Collections IMPORT
 RefactoringAction 1443695640992 SudokuVerifier.java ADD import java.util.HashSet IMPORT
 EditAction 1443695663746 SudokuVerifier.java 1529 4 6 0
+RefactoringAction 1443695732055 SudokuVerifier.java ADD static void something() METHOD
+RefactoringAction 1443695773744 SudokuVerifier.java RENAME something()=>static void something(String) METHOD
+RefactoringAction 1443695804826 SudokuVerifier.java ADD boolean result FIELD
+EditAction 1443695806395 SudokuVerifier.java 1876 5 8 0

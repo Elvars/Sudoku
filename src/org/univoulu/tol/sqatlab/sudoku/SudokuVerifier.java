@@ -21,6 +21,8 @@ public class SudokuVerifier {
 	
 	public static int [] allArrays [] = {rowOne, rowTwo};
 	
+	boolean result=false;
+	
 	public static int verify(String candidateSolution) {
 		
 		
@@ -75,5 +77,17 @@ public class SudokuVerifier {
 		{
 			return 1;
 		}
+	}
+	
+	
+	public static void something(String candidateSolution)
+	{
+		HashSet < Character> uniquecharset= new HashSet();
+        for(int i=0;i < candidateSolution.length();i++)
+        {
+            result=uniquecharset.add(inputstring.charAt(i));
+            if (result == false)
+            break;
+        }
 	}
 }
