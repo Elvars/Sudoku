@@ -52,7 +52,7 @@ public class TestSudokuVerifier {
 	{
 		number = -1;
 		
-		assertFalse("true", SudokuVerifier.isPositive(number));
+		assertTrue("false", SudokuVerifier.isPositive(number));
 		
 	}
 
