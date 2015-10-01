@@ -29,3 +29,9 @@ RefactoringAction 1443689565482 TestSudokuVerifier.java ADD void verifySudokuStr
 RefactoringAction 1443689571497 TestSudokuVerifier.java RENAME verifySudokuStringFail()/2=>void verifySudokuStringPass() METHOD
 EditAction 1443689583410 TestSudokuVerifier.java 623 2 6 2
 EditAction 1443689586921 TestSudokuVerifier.java 623 2 6 2
+UnitTestCaseAction 1443689589203 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443689589204 TestSudokuVerifier OK
+RefactoringAction 1443689600570 TestSudokuVerifier.java RENAME verifySudokuStringFail()=>void verifySudokuStringReturns0() METHOD
+RefactoringAction 1443689606084 TestSudokuVerifier.java RENAME verifySudokuStringPass()=>void verifySudokuString() METHOD
+RefactoringAction 1443689608598 TestSudokuVerifier.java RENAME verifySudokuString()=>void verifySudokuStringReturns1() METHOD
+EditAction 1443689608686 TestSudokuVerifier.java 631 2 6 2

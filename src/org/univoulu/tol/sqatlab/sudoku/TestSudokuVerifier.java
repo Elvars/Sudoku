@@ -10,7 +10,7 @@ public class TestSudokuVerifier {
 	
 	
 	@Test
-	public void verifySudokuStringFail() {
+	public void verifySudokuStringReturns0() {
 		
 		//arrange
 		candidate = "1";
@@ -23,7 +23,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void verifySudokuStringPass() {
+	public void verifySudokuStringReturns1() {
 		
 		//arrange
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
