@@ -125,3 +125,6 @@ EditAction 1443691000766 TestSudokuVerifier.java 942 3 9 3
 UnitTestCaseAction 1443691002661 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443691002661 TestSudokuVerifier OK
 EditAction 1443691094808 TestSudokuVerifier.java 933 3 9 3
+UnitTestCaseAction 1443691097544 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443691097544 TestSudokuVerifier.testForPositiveNumber FAIL
+EditAction 1443691113484 TestSudokuVerifier.java 933 3 9 3
