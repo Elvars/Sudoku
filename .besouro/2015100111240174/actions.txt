@@ -18,3 +18,4 @@ UnitTestSessionAction 1443688992818 TestSudokuVerifier OK
 RefactoringAction 1443689100936 SudokuVerifier.java ADD String correc FIELD
 RefactoringAction 1443689103446 SudokuVerifier.java RENAME correc=>String correctSolution FIELD
 EditAction 1443689318147 SudokuVerifier.java 327 1 2 0
+EditAction 1443689322705 SudokuVerifier.java 327 1 2 0
