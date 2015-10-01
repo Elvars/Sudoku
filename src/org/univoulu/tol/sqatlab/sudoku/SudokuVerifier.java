@@ -80,7 +80,7 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static boolean something(String candidateSolution)
+	public static boolean uniqueString(String candidateSolution)
 	{
 		HashSet < Character> uniquecharset= new HashSet();
         for(int i=0;i < candidateSolution.length();i++)

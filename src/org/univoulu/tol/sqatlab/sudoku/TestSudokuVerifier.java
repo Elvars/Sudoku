@@ -96,7 +96,7 @@ public class TestSudokuVerifier {
 	{
 		candidate = "123456799";
 		
-		assertFalse(SudokuVerifier.something(candidate));
+		assertFalse(SudokuVerifier.uniqueString(candidate));
 		
 	}
 	
@@ -104,7 +104,7 @@ public class TestSudokuVerifier {
 	{
 		candidate = "123456789";
 		
-		assertTrue(SudokuVerifier.something(candidate));
+		assertTrue(SudokuVerifier.uniqueString(candidate));
 		
 	}
 	
