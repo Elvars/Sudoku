@@ -49,3 +49,4 @@ EditAction 1443689844508 TestSudokuVerifier.java 695 3 6 2
 RefactoringAction 1443689865557 TestSudokuVerifier.java ADD int number FIELD
 EditAction 1443689867260 TestSudokuVerifier.java 716 3 6 2
 EditAction 1443689896412 SudokuVerifier.java 558 2 2 0
+EditAction 1443689958707 TestSudokuVerifier.java 804 3 9 3
