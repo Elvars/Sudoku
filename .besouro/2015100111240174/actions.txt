@@ -72,3 +72,6 @@ EditAction 1443690203113 TestSudokuVerifier.java 803 3 9 3
 UnitTestCaseAction 1443690449371 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443690449371 TestSudokuVerifier FAIL
 EditAction 1443690462050 TestSudokuVerifier.java 802 3 9 3
+RefactoringAction 1443690469098 TestSudokuVerifier.java ADD void testForPositiveNumber()/2 METHOD
+RefactoringAction 1443690475616 TestSudokuVerifier.java RENAME testForPositiveNumber()/2=>void testForNegativeNumber() METHOD
+EditAction 1443690482454 TestSudokuVerifier.java 953 4 12 4
