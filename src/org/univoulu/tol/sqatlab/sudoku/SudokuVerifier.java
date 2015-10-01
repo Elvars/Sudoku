@@ -30,4 +30,10 @@ public class SudokuVerifier {
 			return true;
 		}
 	}
+	
+	
+	public static int checkStringLenght(String candidateSolution)
+	{
+		return candidateSolution.length();
+	}
 }

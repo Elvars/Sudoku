@@ -153,3 +153,13 @@ UnitTestCaseAction 1443691262117 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443691262117 TestSudokuVerifier FAIL
 EditAction 1443691269011 TestSudokuVerifier.java 936 4 10 4
 EditAction 1443691362882 TestSudokuVerifier.java 945 4 10 4
+UnitTestCaseAction 1443691364233 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443691364233 TestSudokuVerifier OK
+RefactoringAction 1443691380166 TestSudokuVerifier.java ADD void testCandi FIELD
+RefactoringAction 1443691383682 TestSudokuVerifier.java RENAME testCandi=>void testCandidateSolutionLe FIELD
+RefactoringAction 1443691384701 TestSudokuVerifier.java RENAME testCandidateSolutionLe=>void testCandidateSolutionLenght FIELD
+RefactoringAction 1443691386716 TestSudokuVerifier.java RENAME testCandidateSolutionLenght=>void testCandidateSolutionLenght() METHOD
+RefactoringAction 1443691520173 SudokuVerifier.java ADD int check FIELD
+RefactoringAction 1443691528684 SudokuVerifier.java RENAME check=>static int checkStringLenght() METHOD
+RefactoringAction 1443691536206 SudokuVerifier.java RENAME checkStringLenght()=>static int checkStringLenght(String) METHOD
+EditAction 1443691563215 SudokuVerifier.java 702 3 3 0
