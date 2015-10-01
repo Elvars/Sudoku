@@ -6,8 +6,9 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
-	public String candidate;
 	
+	public String candidate;
+	public int number;
 	
 	@Test
 	public void verifySudokuStringReturns0() {
