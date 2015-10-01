@@ -1,0 +1,9 @@
+FileOpenedAction 1443687841394 TestSudokuVerifier.java 216 1 1 0
+RefactoringAction 1443688451656 TestSudokuVerifier.java RENAME test()=><initializer /1> null
+RefactoringAction 1443688453671 TestSudokuVerifier.java RENAME <initializer /1>=>void verify() METHOD
+RefactoringAction 1443688456185 TestSudokuVerifier.java RENAME verify()=>void verifyS() METHOD
+RefactoringAction 1443688458201 TestSudokuVerifier.java RENAME verifyS()=>void verifySudok() METHOD
+RefactoringAction 1443688460716 TestSudokuVerifier.java RENAME verifySudok()=>void verifySudokuString() METHOD
+FileOpenedAction 1443688705832 TennisMainTest.java 186 1 1 0
+FileOpenedAction 1443688717191 GildedRoseTest.java 1452 3 11 4
+EditAction 1443688745634 TestSudokuVerifier.java 259 1 1 1
