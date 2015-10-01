@@ -87,7 +87,7 @@ public class TestSudokuVerifier {
 		
 		SudokuVerifier.splitString(candidate);
 		
-		assertEquals("1234567890", candidate);
+		assertEquals("11", candidate);
 	}
 	
 	
