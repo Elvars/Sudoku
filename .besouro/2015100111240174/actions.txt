@@ -43,3 +43,6 @@ RefactoringAction 1443689760251 SudokuVerifier.java RENAME is=>boolean isPosi FI
 RefactoringAction 1443689763261 SudokuVerifier.java RENAME isPosi=>boolean isPositive() METHOD
 RefactoringAction 1443689767783 SudokuVerifier.java RENAME isPositive()=>boolean isPositive(int) METHOD
 EditAction 1443689779709 SudokuVerifier.java 495 2 2 0
+CompilationAction 1443689779969 SudokuVerifier.java
+CompilationAction 1443689838270 SudokuVerifier.java
+EditAction 1443689844508 TestSudokuVerifier.java 695 3 6 2

@@ -21,6 +21,11 @@ public class SudokuVerifier {
 	
 	public boolean isPositive(int number)
 	{
-		return 0;
+		if(number>0)
+		{
+			return false;
+		}
+		else
+			return true;
 	}
 }

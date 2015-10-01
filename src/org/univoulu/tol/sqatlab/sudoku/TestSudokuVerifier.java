@@ -34,5 +34,12 @@ public class TestSudokuVerifier {
 		//assert
 		assertEquals(1, 1);
 	}
+	
+	
+	@Test
+	public void testForPositiveNumber()
+	{
+		
+	}
 
 }
