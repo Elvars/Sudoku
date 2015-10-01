@@ -382,3 +382,6 @@ RefactoringAction 1443696083381 TestSudokuVerifier.java RENAME testForUnique9cha
 RefactoringAction 1443696089398 TestSudokuVerifier.java ADD void testForUnique9characterStringFails()/2 METHOD
 RefactoringAction 1443696095414 TestSudokuVerifier.java RENAME testForUnique9characterStringFails()/2=>void testForUnique9characterStringPasses() METHOD
 EditAction 1443696099535 TestSudokuVerifier.java 1868 9 23 9
+UnitTestCaseAction 1443696102234 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443696102234 TestSudokuVerifier FAIL
+EditAction 1443696110017 TestSudokuVerifier.java 1869 9 23 9
