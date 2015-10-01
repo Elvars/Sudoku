@@ -92,9 +92,17 @@ public class TestSudokuVerifier {
 	
 	
 	@Test
-	public void testForUnique9characterString()
+	public void testForUnique9characterStringFails()
 	{
 		candidate = "123456799";
+		
+		assertTrue(SudokuVerifier.something(candidate));
+		
+	}
+	
+	public void testForUnique9characterStringPasses()
+	{
+		candidate = "123456789";
 		
 		assertTrue(SudokuVerifier.something(candidate));
 		
