@@ -33,14 +33,14 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static int[] splitString(String candidateSolution)
+	public static String splitString(String candidateSolution)
 	{
-		for(int i = 0; i<9; i++)
+		for(int i=0; i<9; i++)
 		{
-			allArrays[i][i] = candidateSolution.charAt(i);
+			allArrays[0][i] = candidateSolution.charAt(i);
 		}
 		
-		return allArrays[0].toString;
+		return Arrays.toString(allArrays[0]);
 	}
 	
 	
