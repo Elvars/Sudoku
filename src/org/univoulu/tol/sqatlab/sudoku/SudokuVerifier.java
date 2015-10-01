@@ -14,6 +14,8 @@ public class SudokuVerifier {
 	public static int rowEight[];
 	public static int rowNine[];
 	
+	public static int [] allArrays [] = {rowOne, rowTwo, rowThree, rowFour, rowFive};
+	
 	public static int verify(String candidateSolution) {
 		
 		
@@ -25,6 +27,15 @@ public class SudokuVerifier {
 		else
 		{
 			return 0;
+		}
+	}
+	
+	
+	public static void splitString(String candidateSolution)
+	{
+		for(int i = 0; i<9; i++)
+		{
+			
 		}
 	}
 	

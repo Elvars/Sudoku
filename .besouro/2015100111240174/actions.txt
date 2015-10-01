@@ -233,3 +233,9 @@ RefactoringAction 1443692635695 SudokuVerifier.java RENAME firstRow/2=>int FIELD
 RefactoringAction 1443692637207 SudokuVerifier.java RENAME row=>int FIELD
 RefactoringAction 1443692641214 SudokuVerifier.java RENAME firstRow=>int FIELD
 EditAction 1443692642602 SudokuVerifier.java 1072 3 3 0
+RefactoringAction 1443692859498 SudokuVerifier.java ADD static void splitString() METHOD
+RefactoringAction 1443692876038 SudokuVerifier.java RENAME splitString()=>static void splitString(String) METHOD
+RefactoringAction 1443692952643 SudokuVerifier.java ADD int allArrays FIELD
+RefactoringAction 1443693016841 SudokuVerifier.java RENAME allArrays=><initializer /1> null
+RefactoringAction 1443693017854 SudokuVerifier.java RENAME <initializer /1>=>int FIELD
+EditAction 1443693037317 SudokuVerifier.java 1275 4 4 0
