@@ -195,3 +195,6 @@ RefactoringAction 1443691971969 TestSudokuVerifier.java RENAME testCandidateSolu
 RefactoringAction 1443691973985 TestSudokuVerifier.java RENAME testCandidateSolutionLenghtReturns()=>void testCandidateSolutionLenghtReturns1() METHOD
 RefactoringAction 1443692003530 TestSudokuVerifier.java ADD void testCandidateSolutionLenghtReturns0() METHOD
 EditAction 1443692041911 TestSudokuVerifier.java 1376 6 16 6
+UnitTestCaseAction 1443692047602 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443692047602 TestSudokuVerifier FAIL
+EditAction 1443692053661 TestSudokuVerifier.java 1376 6 16 6
