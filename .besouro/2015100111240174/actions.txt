@@ -163,3 +163,4 @@ RefactoringAction 1443691520173 SudokuVerifier.java ADD int check FIELD
 RefactoringAction 1443691528684 SudokuVerifier.java RENAME check=>static int checkStringLenght() METHOD
 RefactoringAction 1443691536206 SudokuVerifier.java RENAME checkStringLenght()=>static int checkStringLenght(String) METHOD
 EditAction 1443691563215 SudokuVerifier.java 702 3 3 0
+EditAction 1443691626632 TestSudokuVerifier.java 1192 5 13 5
