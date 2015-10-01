@@ -17,4 +17,10 @@ public class SudokuVerifier {
 			return 0;
 		}
 	}
+	
+	
+	public boolean isPositive(int number)
+	{
+		return 0;
+	}
 }

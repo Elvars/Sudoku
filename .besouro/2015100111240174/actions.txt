@@ -36,3 +36,10 @@ RefactoringAction 1443689606084 TestSudokuVerifier.java RENAME verifySudokuStrin
 RefactoringAction 1443689608598 TestSudokuVerifier.java RENAME verifySudokuString()=>void verifySudokuStringReturns1() METHOD
 EditAction 1443689608686 TestSudokuVerifier.java 631 2 6 2
 EditAction 1443689673975 SudokuVerifier.java 428 1 1 0
+RefactoringAction 1443689706201 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443689713717 TestSudokuVerifier.java RENAME test=>void testForPositiveNumber() METHOD
+RefactoringAction 1443689758742 SudokuVerifier.java ADD boolean is FIELD
+RefactoringAction 1443689760251 SudokuVerifier.java RENAME is=>boolean isPosi FIELD
+RefactoringAction 1443689763261 SudokuVerifier.java RENAME isPosi=>boolean isPositive() METHOD
+RefactoringAction 1443689767783 SudokuVerifier.java RENAME isPositive()=>boolean isPositive(int) METHOD
+EditAction 1443689779709 SudokuVerifier.java 495 2 2 0
