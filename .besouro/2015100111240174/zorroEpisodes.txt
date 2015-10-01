@@ -20,8 +20,9 @@
 1443691252853 regression 1 8 true
 1443691364233 regression 2 111 true
 1443691632819 test-last 1 268 false
-1443691640445 regression 1 7 false
-1443691686392 regression 2 45 false
-1443691868900 refactoring 2A 182 false
-1443691957869 regression 2 88 false
-1443692055637 test-addition 1 97 false
+1443691640445 regression 1 7 true
+1443691686392 regression 2 45 true
+1443691868900 refactoring 2A 182 true
+1443691957869 regression 2 88 true
+1443692055637 test-addition 1 97 true
+1443694155769 test-first 3 2100 true
