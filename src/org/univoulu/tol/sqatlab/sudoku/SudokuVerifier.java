@@ -14,7 +14,7 @@ public class SudokuVerifier {
 	public static int rowEight[];
 	public static int rowNine[];
 	
-	public static int [] allArrays [] = {rowOne, rowTwo, rowThree, rowFour, rowFive};
+	public static int [] allArrays [] = {rowOne};
 	
 	public static int verify(String candidateSolution) {
 		
