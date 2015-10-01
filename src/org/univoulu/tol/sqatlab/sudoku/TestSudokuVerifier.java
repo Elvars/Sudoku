@@ -83,7 +83,7 @@ public class TestSudokuVerifier {
 	public void testStringSplitter()
 	{
 		
-		candidate = "1234567891";
+		candidate = "123456789";
 		
 		SudokuVerifier.splitString(candidate);
 		
