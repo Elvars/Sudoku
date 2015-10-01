@@ -357,3 +357,8 @@ RefactoringAction 1443695732055 SudokuVerifier.java ADD static void something() 
 RefactoringAction 1443695773744 SudokuVerifier.java RENAME something()=>static void something(String) METHOD
 RefactoringAction 1443695804826 SudokuVerifier.java ADD boolean result FIELD
 EditAction 1443695806395 SudokuVerifier.java 1876 5 8 0
+CompilationAction 1443695806679 SudokuVerifier.java
+CompilationAction 1443695806680 SudokuVerifier.java
+CompilationAction 1443695820443 SudokuVerifier.java
+CompilationAction 1443695820444 SudokuVerifier.java
+EditAction 1443695925241 SudokuVerifier.java 1954 5 9 0
