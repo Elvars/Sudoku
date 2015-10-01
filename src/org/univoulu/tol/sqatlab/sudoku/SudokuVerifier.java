@@ -26,6 +26,8 @@ public class SudokuVerifier {
 			return false;
 		}
 		else
+		{
 			return true;
+		}
 	}
 }
