@@ -347,3 +347,9 @@ EditAction 1443695159830 SudokuVerifier.java 1525 4 6 0
 UnitTestCaseAction 1443695162093 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443695162093 TestSudokuVerifier OK
 EditAction 1443695242150 SudokuVerifier.java 1495 4 6 0
+UnitTestCaseAction 1443695245968 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443695245968 TestSudokuVerifier OK
+RefactoringAction 1443695640991 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1443695640992 SudokuVerifier.java ADD import java.util.Collections IMPORT
+RefactoringAction 1443695640992 SudokuVerifier.java ADD import java.util.HashSet IMPORT
+EditAction 1443695663746 SudokuVerifier.java 1529 4 6 0

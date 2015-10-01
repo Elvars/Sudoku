@@ -1,6 +1,9 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.Arrays; 
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 
 public class SudokuVerifier {
 	
@@ -43,9 +46,6 @@ public class SudokuVerifier {
 			allArrays[0][i] = chars[i];
 			
 		}
-		
-		
-		//System.out.println(candidateSolution);
 		
 		return Arrays.toString(allArrays[0]);
 		
