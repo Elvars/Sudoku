@@ -44,18 +44,18 @@ public class TestSudokuVerifier {
 		
 		SudokuVerifier.isPositive(number);
 		
-		assertEquals(false);
+		assertTrue(true);
 	}
 	
 	
 	@Test
 	public void testForNegativeNumber()
 	{
-		number = 20;
+		number = -1;
 		
 		SudokuVerifier.isPositive(number);
 		
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 }
