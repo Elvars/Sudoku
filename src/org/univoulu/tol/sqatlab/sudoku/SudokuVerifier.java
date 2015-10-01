@@ -32,15 +32,15 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static boolean checkStringLenght(String candidateSolution)
+	public static int checkStringLenght(String candidateSolution)
 	{
 		if(candidateSolution.length()<81 || candidateSolution.length()>81)
 		{
-			return false;
+			return 0;
 		}
 		else
 		{
-			return true;
+			return 1;
 		}
 	}
 }
