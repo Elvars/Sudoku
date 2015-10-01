@@ -28,3 +28,4 @@ RefactoringAction 1443689556466 TestSudokuVerifier.java RENAME verifySudokuStrin
 RefactoringAction 1443689565482 TestSudokuVerifier.java ADD void verifySudokuStringFail()/2 METHOD
 RefactoringAction 1443689571497 TestSudokuVerifier.java RENAME verifySudokuStringFail()/2=>void verifySudokuStringPass() METHOD
 EditAction 1443689583410 TestSudokuVerifier.java 623 2 6 2
+EditAction 1443689586921 TestSudokuVerifier.java 623 2 6 2
