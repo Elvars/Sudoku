@@ -246,3 +246,7 @@ RefactoringAction 1443693262093 TestSudokuVerifier.java ADD void test FIELD
 RefactoringAction 1443693266611 TestSudokuVerifier.java RENAME test=>void testStringSplitt FIELD
 RefactoringAction 1443693271634 TestSudokuVerifier.java RENAME testStringSplitt=>void testStringSplitter() METHOD
 EditAction 1443693327346 TestSudokuVerifier.java 1554 7 19 7
+UnitTestCaseAction 1443693330009 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443693330010 TestSudokuVerifier FAIL
+RefactoringAction 1443693416612 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+EditAction 1443693418004 SudokuVerifier.java 1352 4 5 0

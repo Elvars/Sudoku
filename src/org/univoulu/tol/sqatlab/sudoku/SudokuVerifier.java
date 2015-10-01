@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.Arrays; 
+
 public class SudokuVerifier {
 	
 	public static String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -38,7 +40,7 @@ public class SudokuVerifier {
 			allArrays[i][i] = candidateSolution.charAt(i);
 		}
 		
-		return allArrays[0];
+		return allArrays[0].toString;
 	}
 	
 	
