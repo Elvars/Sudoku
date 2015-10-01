@@ -19,9 +19,9 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static boolean isPositive(int number)
+	public static boolean isPositive(int candidateNumber)
 	{
-		if(number<0)
+		if(candidateNumber<0)
 		{
 			return false;
 		}
