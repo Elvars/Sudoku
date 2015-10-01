@@ -47,13 +47,13 @@ public class TestSudokuVerifier {
 	}
 	
 	
-//	@Test
-//	public void testForNegativeNumber()
-//	{
-//		number = -1;
-//		
-//		SudokuVerifier.isPositive(number);
-//		
-//	}
+	@Test
+	public void testForNegativeNumber()
+	{
+		number = -1;
+		
+		assertFalse("false", SudokuVerifier.isPositive(number));
+		
+	}
 
 }

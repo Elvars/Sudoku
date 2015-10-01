@@ -139,3 +139,7 @@ EditAction 1443691195041 TestSudokuVerifier.java 931 3 8 3
 UnitTestCaseAction 1443691198277 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443691198278 TestSudokuVerifier FAIL
 EditAction 1443691213186 TestSudokuVerifier.java 930 3 8 3
+UnitTestCaseAction 1443691215383 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443691215383 TestSudokuVerifier OK
+RefactoringAction 1443691221999 TestSudokuVerifier.java ADD void testForNegativeNumber() METHOD
+EditAction 1443691241106 TestSudokuVerifier.java 936 4 10 4
