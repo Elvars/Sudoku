@@ -35,9 +35,11 @@ public class SudokuVerifier {
 	
 	public static String splitString(String candidateSolution)
 	{
+		char[] chars = candidateSolution.toCharArray();
+		
 		for(int i=0; i<9; i++)
 		{
-			allArrays[0][i] = candidateSolution.charAt(i);
+			allArrays[0][i] = char[i];
 		}
 		
 		return Arrays.toString(allArrays[0]);
