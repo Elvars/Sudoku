@@ -43,6 +43,7 @@ public class SudokuVerifier {
 		}
 		
 		System.out.println(Arrays.toString(allArrays[0]));
+		System.out.println(candidateSolution);
 		
 		return Arrays.toString(allArrays[0]);
 		
