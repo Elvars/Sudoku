@@ -362,3 +362,14 @@ CompilationAction 1443695806680 SudokuVerifier.java
 CompilationAction 1443695820443 SudokuVerifier.java
 CompilationAction 1443695820444 SudokuVerifier.java
 EditAction 1443695925241 SudokuVerifier.java 1954 5 9 0
+CompilationAction 1443695925495 SudokuVerifier.java
+CompilationAction 1443695940962 SudokuVerifier.java
+CompilationAction 1443695941135 SudokuVerifier.java
+CompilationAction 1443695955801 SudokuVerifier.java
+RefactoringAction 1443695981063 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443695985078 TestSudokuVerifier.java RENAME test=>void testForUnique FIELD
+RefactoringAction 1443695994594 TestSudokuVerifier.java RENAME testForUnique=>void testForUniqueSt FIELD
+RefactoringAction 1443695995610 TestSudokuVerifier.java RENAME testForUniqueSt=>void testForUnique FIELD
+RefactoringAction 1443695996627 TestSudokuVerifier.java RENAME testForUnique=>void testForUnique9 FIELD
+RefactoringAction 1443696001654 TestSudokuVerifier.java RENAME testForUnique9=>void testForUnique9characterString() METHOD
+EditAction 1443696065295 TestSudokuVerifier.java 1712 8 21 8

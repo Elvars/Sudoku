@@ -91,6 +91,6 @@ public class SudokuVerifier {
             
         }
         
-        System.out.println(result);
+        return result;
 	}
 }
