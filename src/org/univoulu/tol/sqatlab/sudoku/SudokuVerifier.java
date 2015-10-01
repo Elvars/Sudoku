@@ -39,10 +39,13 @@ public class SudokuVerifier {
 		
 		for(int i=0; i<9; i++)
 		{
-			allArrays[0][i] = char[i];
+			allArrays[0][i] = chars[i];
 		}
 		
+		System.out.println(Arrays.toString(allArrays[0]));
+		
 		return Arrays.toString(allArrays[0]);
+		
 	}
 	
 	
