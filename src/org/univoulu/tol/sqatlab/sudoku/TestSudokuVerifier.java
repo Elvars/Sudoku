@@ -8,6 +8,7 @@ public class TestSudokuVerifier {
 
 	public String candidate;
 	
+	
 	@Test
 	public void verifySudokuString() {
 		
