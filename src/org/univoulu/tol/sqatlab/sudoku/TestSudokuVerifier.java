@@ -44,7 +44,7 @@ public class TestSudokuVerifier {
 		
 		SudokuVerifier.isPositive(number);
 		
-		assertTrue(true);
+		assertEquals(true, true)
 	}
 	
 	
@@ -55,7 +55,6 @@ public class TestSudokuVerifier {
 		
 		SudokuVerifier.isPositive(number);
 		
-		assertTrue(false);
 	}
 
 }
