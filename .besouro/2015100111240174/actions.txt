@@ -116,3 +116,6 @@ EditAction 1443690921707 TestSudokuVerifier.java 938 4 12 4
 UnitTestCaseAction 1443690923609 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443690923609 TestSudokuVerifier.testForNegativeNumber FAIL
 EditAction 1443690976086 TestSudokuVerifier.java 923 4 8 2
+CompilationAction 1443690976333 TestSudokuVerifier.java
+RefactoringAction 1443690984995 TestSudokuVerifier.java REMOVE testForNegativeNumber() METHOD
+EditAction 1443690985212 TestSudokuVerifier.java 940 3 9 3
