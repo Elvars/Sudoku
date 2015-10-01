@@ -198,3 +198,38 @@ EditAction 1443692041911 TestSudokuVerifier.java 1376 6 16 6
 UnitTestCaseAction 1443692047602 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443692047602 TestSudokuVerifier FAIL
 EditAction 1443692053661 TestSudokuVerifier.java 1376 6 16 6
+UnitTestCaseAction 1443692055636 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443692055637 TestSudokuVerifier OK
+RefactoringAction 1443692534893 SudokuVerifier.java ADD int FirstRow FIELD
+RefactoringAction 1443692541403 SudokuVerifier.java RENAME FirstRow=>int firs FIELD
+RefactoringAction 1443692544414 SudokuVerifier.java RENAME firs=>int FIELD
+RefactoringAction 1443692545426 SudokuVerifier.java REMOVE firstRow FIELD
+RefactoringAction 1443692553957 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563469 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563470 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563470 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563471 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563471 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563472 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692563472 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692564484 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443692569496 SudokuVerifier.java RENAME firstRow/9=>int FIELD
+RefactoringAction 1443692571008 SudokuVerifier.java RENAME seRow=>int FIELD
+RefactoringAction 1443692575520 SudokuVerifier.java RENAME firstRow/8=>int FIELD
+RefactoringAction 1443692582532 SudokuVerifier.java RENAME firstRow/7=>int FIELD
+RefactoringAction 1443692592547 SudokuVerifier.java RENAME firstRow/6=>int FIELD
+RefactoringAction 1443692597059 SudokuVerifier.java RENAME secondRow=>int FIELD
+RefactoringAction 1443692598571 SudokuVerifier.java RENAME row=>int FIELD
+RefactoringAction 1443692602582 SudokuVerifier.java RENAME thirdRow=>int FIELD
+RefactoringAction 1443692605594 SudokuVerifier.java RENAME row=>int FIELD
+RefactoringAction 1443692610106 SudokuVerifier.java RENAME fourthRow=>int FIELD
+RefactoringAction 1443692619618 SudokuVerifier.java RENAME firstRow/5=>int FIELD
+RefactoringAction 1443692623131 SudokuVerifier.java RENAME firstRow/4=>int FIELD
+RefactoringAction 1443692625143 SudokuVerifier.java RENAME row=>int FIELD
+RefactoringAction 1443692629154 SudokuVerifier.java RENAME firstRow/3=>int FIELD
+RefactoringAction 1443692630666 SudokuVerifier.java RENAME rowSevevn=>int FIELD
+RefactoringAction 1443692631678 SudokuVerifier.java RENAME rowSevem=>int FIELD
+RefactoringAction 1443692635695 SudokuVerifier.java RENAME firstRow/2=>int FIELD
+RefactoringAction 1443692637207 SudokuVerifier.java RENAME row=>int FIELD
+RefactoringAction 1443692641214 SudokuVerifier.java RENAME firstRow=>int FIELD
+EditAction 1443692642602 SudokuVerifier.java 1072 3 3 0
