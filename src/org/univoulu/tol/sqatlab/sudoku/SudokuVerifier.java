@@ -35,7 +35,7 @@ public class SudokuVerifier {
 	{
 		for(int i = 0; i<9; i++)
 		{
-			
+			allArrays[i][i] = candidateSolution.charAt(i);
 		}
 	}
 	

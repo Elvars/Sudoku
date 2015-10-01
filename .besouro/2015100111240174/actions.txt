@@ -239,3 +239,4 @@ RefactoringAction 1443692952643 SudokuVerifier.java ADD int allArrays FIELD
 RefactoringAction 1443693016841 SudokuVerifier.java RENAME allArrays=><initializer /1> null
 RefactoringAction 1443693017854 SudokuVerifier.java RENAME <initializer /1>=>int FIELD
 EditAction 1443693037317 SudokuVerifier.java 1275 4 4 0
+EditAction 1443693195205 SudokuVerifier.java 1321 4 4 0
