@@ -39,10 +39,9 @@ public class SudokuVerifier {
 		
 		for(int i=0; i<9; i++)
 		{
-			for(int y=0; y<9; y++)
-			{
-				allArrays[0][y] = chars[y];
-			}
+			
+			allArrays[0][i] = chars[i];
+			
 		}
 		
 		
