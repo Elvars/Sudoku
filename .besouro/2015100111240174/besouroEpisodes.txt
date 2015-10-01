@@ -84,3 +84,7 @@
 1443696067170 test-last 1 426 false
 1443696067171 test-last 1 426 false
 1443696067172 test-last 1 426 false
+1443696111742 test-addition 2 40 true
+1443696111743 test-addition 1 40 true
+1443696111744 test-addition 2 40 true
+1443696111745 test-addition 1 40 true
