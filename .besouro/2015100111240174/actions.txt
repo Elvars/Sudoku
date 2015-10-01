@@ -373,3 +373,6 @@ RefactoringAction 1443695995610 TestSudokuVerifier.java RENAME testForUniqueSt=>
 RefactoringAction 1443695996627 TestSudokuVerifier.java RENAME testForUnique=>void testForUnique9 FIELD
 RefactoringAction 1443696001654 TestSudokuVerifier.java RENAME testForUnique9=>void testForUnique9characterString() METHOD
 EditAction 1443696065295 TestSudokuVerifier.java 1712 8 21 8
+UnitTestCaseAction 1443696067170 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443696067170 TestSudokuVerifier OK
+EditAction 1443696071154 TestSudokuVerifier.java 1712 8 21 8
