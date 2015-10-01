@@ -6,7 +6,7 @@ public class SudokuVerifier {
 	
 	public static String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 
-	public static int rowOne[];
+	public static int rowOne[] = new int[9];
 	public static int rowTwo[];
 	public static int rowThree[];
 	public static int rowFour[];
