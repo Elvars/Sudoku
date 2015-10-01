@@ -42,10 +42,7 @@ public class SudokuVerifier {
 			allArrays[0][i] = chars[i];
 		}
 		
-		for(int i = 0; i<allArrays[0].length; i++)
-		{
-			System.out.println(allArrays[1][i]);
-		}
+		
 		System.out.println(candidateSolution);
 		
 		return Arrays.toString(allArrays[0]);
