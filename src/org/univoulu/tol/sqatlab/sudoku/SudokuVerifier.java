@@ -141,15 +141,14 @@ public class SudokuVerifier {
 		String subString;
 		StringBuilder b = new StringBuilder();
 		
-		int e = 0;
-		int o = 0;
+		int e = 1;
+		int o = 1;
 		
-		for(int z=0; z<9; z++)
-		{
 		
-			for(int i=e; i<9; i++)
+		
+			for(int i=e; i<e*3; i++)
 			{
-				for(int y=o; y<9; y++)
+				for(int y=o; y<o*3; y++)
 				{
 					b.append( allArrays[i][y]);
 				}
@@ -158,11 +157,13 @@ public class SudokuVerifier {
 				
 				System.out.println(subString);
 				
+				b.setLength(0);
+				
 				e+=3;
 				o+=3;
 			}
 			
-		}
+		
 		
 		
 		
