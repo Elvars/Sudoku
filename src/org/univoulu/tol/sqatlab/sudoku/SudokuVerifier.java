@@ -90,11 +90,14 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
+			System.out.println(subString);
 			
-			if(uniqueString(subString))
+			if(uniqueString(subString)==false)
 			{
 				return 0;
-			} 
+			}
+			
+			b.setLength(0);
 		}
 		
 	
