@@ -18,7 +18,7 @@ public class TestSudokuVerifier {
 		int actual = 0;
 		
 		//act
-		SudokuVerifier.verify(candidate);
+		actual = SudokuVerifier.verify(candidate);
 		
 		//assert
 		assertEquals(0, actual);
@@ -32,7 +32,7 @@ public class TestSudokuVerifier {
 		int actual = 0;
 		
 		//act
-		SudokuVerifier.verify(candidate);
+		actual = SudokuVerifier.verify(candidate);
 		
 		//assert
 		assertEquals(1, actual);
