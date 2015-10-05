@@ -21,7 +21,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier.verify(candidate);
 		
 		//assert
-		assertEquals(0, 0);
+		assertEquals(0, actual);
 	}
 	
 	@Test
