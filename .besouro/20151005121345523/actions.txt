@@ -255,3 +255,6 @@ EditAction 1444046798143 TestSudokuVerifier.java 2421 10 29 10
 RefactoringAction 1444046840037 TestSudokuVerifier.java ADD void testFor FIELD
 RefactoringAction 1444046844050 TestSudokuVerifier.java RENAME testFor=>void testForVertical() METHOD
 EditAction 1444046956545 TestSudokuVerifier.java 2722 11 34 11
+UnitTestCaseAction 1444046957403 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444046957404 TestSudokuVerifier OK
+EditAction 1444046966400 TestSudokuVerifier.java 2720 11 34 11

@@ -139,7 +139,7 @@ public class TestSudokuVerifier {
 		int actual = 0;
 		SudokuVerifier.splitString(candidate);
 		
-		actual = SudokuVerifier.checkHorizontal();
+		actual = SudokuVerifier.checkVertical();
 		
 		assertEquals(1, actual);
 	}
