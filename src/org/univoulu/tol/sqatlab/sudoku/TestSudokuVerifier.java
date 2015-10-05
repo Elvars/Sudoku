@@ -115,8 +115,8 @@ public class TestSudokuVerifier {
 	@Test
 	public void testForHorizontal()
 	{
-		candidate = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
-		//candidate = "123456799";
+		//candidate = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
+		candidate = "123456799";
 		
 		int actual = 0;
 		SudokuVerifier.splitString(candidate);
