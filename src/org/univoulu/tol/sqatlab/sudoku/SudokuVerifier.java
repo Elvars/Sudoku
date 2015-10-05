@@ -1,25 +1,22 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashSet;
 
 public class SudokuVerifier {
 	
 	public static String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 
-	public static int rowOne[] = new int[9];
-	public static int rowTwo[] = new int[9];
-	public static int rowThree[] = new int[9];
-	public static int rowFour[] = new int [9];
-	public static int rowFive[]= new int [9];
-	public static int rowSix[]= new int [9];
-	public static int rowSeven[]= new int [9];
-	public static int rowEight[]= new int [9];
-	public static int rowNine[]= new int [9];
+	public static String rowOne[] = new String[9];
+	public static String rowTwo[] = new String[9];
+	public static String rowThree[] = new String[9];
+	public static String rowFour[] = new String [9];
+	public static String rowFive[]= new String [9];
+	public static String rowSix[]= new String [9];
+	public static String rowSeven[]= new String [9];
+	public static String rowEight[]= new String [9];
+	public static String rowNine[]= new String [9];
 	
-	public static int [] allArrays [] = {rowOne, rowTwo, rowThree, rowFour, rowFive, rowSix, rowSeven, rowEight, rowNine};
+	public static String [] allArrays [] = {rowOne, rowTwo, rowThree, rowFour, rowFive, rowSix, rowSeven, rowEight, rowNine};
 	
 	static boolean result=false;
 	
@@ -40,8 +37,11 @@ public class SudokuVerifier {
 	
 	public static String splitString(String candidateSolution)
 	{
-		char[] chars = new char[100];
-		chars = candidateSolution.toCharArray();
+		//char[] chars = new char[81];
+		//chars = candidateSolution.toCharArray();
+		
+		String[] chars = new String[82];
+		chars = candidateSolution.split("");
 		int z = 0;
 		
 		for(int i=0; i<9; i++)
@@ -50,11 +50,12 @@ public class SudokuVerifier {
 			{	
 				allArrays[i][y] = chars[z];
 				z++;
+				System.out.println(allArrays[i][y]);
 			}
 			
 		}
 		
-		return Arrays.toString(allArrays);
+		return allArrays.toString();
 		
 	}
 	
@@ -66,7 +67,8 @@ public class SudokuVerifier {
 		for(int i=0; i<9; i++)
 		{
 			subString = allArrays[i].toString();
-			System.out.println(subString);
+			
+			//System.out.println(allArrays[i].toString());
 			
 			if(uniqueString(subString)==false)
 			{
