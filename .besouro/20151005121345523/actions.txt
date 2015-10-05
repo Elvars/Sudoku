@@ -320,3 +320,4 @@ UnitTestSessionAction 1444049715946 TestSudokuVerifier OK
 RefactoringAction 1444049744487 TestSudokuVerifier.java ADD int candidate/2 FIELD
 RefactoringAction 1444049750996 TestSudokuVerifier.java RENAME candidate/2=>int actual FIELD
 EditAction 1444049781788 TestSudokuVerifier.java 2959 11 36 11
+EditAction 1444049785890 TestSudokuVerifier.java 2955 11 36 11
