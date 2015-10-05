@@ -63,7 +63,7 @@ public class SudokuVerifier {
 	{
 		String subString;
 		
-		for(int i=0; i<9; i++)
+		for(int i=0; i<1; i++)
 		{
 			subString = allArrays[i].toString();
 			
