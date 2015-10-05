@@ -8,3 +8,20 @@ EditAction 1444036682909 TestSudokuVerifier.java 2020 9 23 9
 UnitTestCaseAction 1444036685777 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444036685778 TestSudokuVerifier FAIL
 EditAction 1444036708106 SudokuVerifier.java 1977 5 9 0
+UnitTestCaseAction 1444036772438 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444036772439 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444036932640 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444036932641 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444037291250 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444037291252 TestSudokuVerifier FAIL
+RefactoringAction 1444037310805 SudokuVerifier.java REMOVE rowThree FIELD
+RefactoringAction 1444037315406 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1444037336088 SudokuVerifier.java REMOVE rowSeven FIELD
+RefactoringAction 1444037338111 SudokuVerifier.java ADD int FIELD
+UnitTestCaseAction 1444037358112 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444037358113 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444037514541 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444037514543 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444037551599 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444037551600 TestSudokuVerifier FAIL
+EditAction 1444037611970 TestSudokuVerifier.java 2021 9 23 9

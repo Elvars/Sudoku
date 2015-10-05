@@ -11,15 +11,15 @@ public class SudokuVerifier {
 
 	public static int rowOne[] = new int[9];
 	public static int rowTwo[] = new int[9];
-	public static int rowThree[];
-	public static int rowFour[];
-	public static int rowFive[];
-	public static int rowSix[];
-	public static int rowSeven[];
-	public static int rowEight[];
-	public static int rowNine[];
+	public static int rowThree[] = new int[9];
+	public static int rowFour[] = new int [9];
+	public static int rowFive[]= new int [9];
+	public static int rowSix[]= new int [9];
+	public static int rowSeven[]= new int [9];
+	public static int rowEight[]= new int [9];
+	public static int rowNine[]= new int [9];
 	
-	public static int [] allArrays [] = {rowOne, rowTwo};
+	public static int [] allArrays [] = {rowOne, rowTwo, rowThree, rowFour, rowFive, rowSix, rowSeven, rowEight, rowNine};
 	
 	static boolean result=false;
 	
@@ -40,13 +40,17 @@ public class SudokuVerifier {
 	
 	public static String splitString(String candidateSolution)
 	{
-		char[] chars = candidateSolution.toCharArray();
+		char[] chars = new char[100];
+		chars = candidateSolution.toCharArray();
+		int z = 0;
 		
 		for(int i=0; i<9; i++)
 		{
 			for(int y=0; y<9; y++)
 			{	
-				allArrays[i][y] = chars[y];
+				allArrays[i][y] = chars[z];
+				System.out.println(z);
+				z++;
 			}
 			
 		}
