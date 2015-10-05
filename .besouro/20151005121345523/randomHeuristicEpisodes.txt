@@ -45,3 +45,12 @@
 1444049715946 regression 2 9 false
 1444049788040 refactoring 3 43 false
 1444050218035 refactoring 3 154 false
+1444050243216 test-addition 1 3 true
+1444050658661 regression 2 256 false
+1444050667221 regression 1 0 true
+1444050729477 regression 2 21 true
+1444050750973 regression 1 0 false
+1444051602228 regression 1 0 false
+1444051723138 regression 2 70 true
+1444052276622 regression 2 302 true
+1444052345602 regression 2 8 true

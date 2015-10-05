@@ -74,7 +74,7 @@ public class SudokuVerifier {
 	
 	public static int checkHorizontal()
 	{
-		
+		System.out.println("\n");
 		
 		String subString;
 		StringBuilder b = new StringBuilder();
@@ -88,7 +88,7 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
-			//System.out.println(subString);
+			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -119,7 +119,7 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
-			System.out.println(subString);
+			//System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -137,6 +137,34 @@ public class SudokuVerifier {
 	public static int checkMiniGrids()
 	{
 		
+		System.out.println("\n");
+		String subString;
+		StringBuilder b = new StringBuilder();
+		
+		int e = 0;
+		int o = 0;
+		
+		for(int z=0; z<9; z++)
+		{
+		
+			for(int i=e; i<e; i++)
+			{
+				for(int y=o; y<o; y++)
+				{
+					b.append( allArrays[i][y]);
+				}
+				
+				subString = b.toString();
+				
+				System.out.println(subString);
+				
+				e+=3;
+				o+=3;
+			}
+			
+		}
+		
+		
 		
 		
 		return 1;
@@ -145,7 +173,7 @@ public class SudokuVerifier {
 	
 	public static boolean uniqueString(String candidateSolution)
 	{
-		HashSet < Character> uniquecharset= new HashSet();
+		HashSet <Character> uniquecharset= new HashSet();
         for(int i=0;i < candidateSolution.length();i++)
         {
             result=uniquecharset.add(candidateSolution.charAt(i));
