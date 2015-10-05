@@ -41,6 +41,8 @@ public class SudokuVerifier {
 		//char[] chars = new char[81];
 		//chars = candidateSolution.toCharArray();
 		
+		System.out.println(candidateSolution);
+		
 		String setti="";
 		
 		StringBuilder b = new StringBuilder();
@@ -90,14 +92,20 @@ public class SudokuVerifier {
 		
 		subString = b.toString();
 		
+		
 		System.out.println(subString);
 		
-		if(!uniqueString(subString))
+		if(uniqueString(subString))
 		{
+			return 1;
+		} 
+		else
+		{
+
 			return 0;
 		}
 
-		return 1;
+		
 	}
 	
 	
