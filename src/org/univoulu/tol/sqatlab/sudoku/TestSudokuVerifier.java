@@ -35,7 +35,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier.verify(candidate);
 		
 		//assert
-		assertEquals(1, 1);
+		assertEquals(1, actual);
 	}
 	
 	
