@@ -83,11 +83,11 @@ public class TestSudokuVerifier {
 	public void testStringSplitter()
 	{
 		
-		candidate = "123456789";
+		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
 		SudokuVerifier.splitString(candidate);
 		
-		assertEquals("123456789", candidate);
+		assertEquals("4173698256321589479587243168254371697915864323469127582896435715732916841648752939", candidate);
 	}
 	
 	

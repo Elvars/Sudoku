@@ -44,12 +44,14 @@ public class SudokuVerifier {
 		
 		for(int i=0; i<9; i++)
 		{
-			
-			allArrays[0][i] = chars[i];
+			for(int y=0; y<9; y++)
+			{	
+				allArrays[y][i] = chars[i];
+			}
 			
 		}
 		
-		return Arrays.toString(allArrays[0]);
+		return Arrays.toString(allArrays);
 		
 	}
 	
