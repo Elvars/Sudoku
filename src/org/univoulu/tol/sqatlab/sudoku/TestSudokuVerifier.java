@@ -116,11 +116,12 @@ public class TestSudokuVerifier {
 		candidate = "4173698256321589479587243168254371697915864323469127582896435715732916841648752939";
 		//candidate = "123456799";
 		
+		int lor = 0;
 		SudokuVerifier.splitString(candidate);
 		
-		SudokuVerifier.checkHorizontal();
+		lor = SudokuVerifier.checkHorizontal();
 		
-		assertEquals(1,1);
+		assertEquals();
 		
 	}
 	
