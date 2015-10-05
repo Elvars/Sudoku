@@ -9,13 +9,14 @@ public class TestSudokuVerifier {
 	
 	public String candidate;
 	public int number;
+	public int actual;
 	
 	@Test
 	public void verifySudokuStringReturns0() {
 		
 		//arrange
 		candidate = "1";
-		int actual = 0;
+		actual = 0;
 		
 		//act
 		actual = SudokuVerifier.verify(candidate);
@@ -29,7 +30,7 @@ public class TestSudokuVerifier {
 		
 		//arrange
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		int actual = 0;
+		actual = 0;
 		
 		//act
 		actual = SudokuVerifier.verify(candidate);
@@ -64,6 +65,7 @@ public class TestSudokuVerifier {
 	{
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
+		
 		SudokuVerifier.checkStringLenght(candidate);
 		
 		assertEquals(1, 1);
@@ -84,14 +86,14 @@ public class TestSudokuVerifier {
 	@Test
 	public void testStringSplitter()
 	{
-		String actual;
+		String actualString;
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		actual = SudokuVerifier.splitString(candidate);
+		actualString = SudokuVerifier.splitString(candidate);
 		
 		
 		
-		assertEquals(candidate, actual);
+		assertEquals(candidate, actualString);
 	}
 	
 	
@@ -123,7 +125,7 @@ public class TestSudokuVerifier {
 		//will pass
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		int actual = 0;
+		actual = 0;
 		SudokuVerifier.splitString(candidate);
 		
 		actual = SudokuVerifier.checkHorizontal();
