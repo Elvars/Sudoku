@@ -92,7 +92,7 @@ public class SudokuVerifier {
 
 			System.out.println(subString);
 			
-			if(uniqueString(subString)==false)
+			if(!uniqueString(subString))
 			{
 				return 0;
 			}
