@@ -88,24 +88,21 @@ public class SudokuVerifier {
 			{
 			   b.append( allArrays[i][y]);
 			}
+			
+			subString = b.toString();
+
+			
+			if(uniqueString(subString))
+			{
+				return 1;
+			} 
 		}
 		
-		subString = b.toString();
-		
-		
-		System.out.println(subString);
-		
-		if(uniqueString(subString))
-		{
-			return 1;
-		} 
-		else
-		{
+	
 
-			return 0;
-		}
-
+		return 0;
 		
+
 	}
 	
 	
