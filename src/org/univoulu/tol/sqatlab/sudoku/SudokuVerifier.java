@@ -67,7 +67,7 @@ public class SudokuVerifier {
 		{
 			subString = allArrays[i].toString();
 			
-			if(!uniqueString(subString))
+			if(uniqueString(subString)==false)
 			{
 				return 0;
 			}
