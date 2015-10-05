@@ -89,7 +89,7 @@ public class TestSudokuVerifier {
 		
 		
 		
-		assertEquals(actual, candidate);
+		assertEquals(candidate, actual);
 	}
 	
 	
