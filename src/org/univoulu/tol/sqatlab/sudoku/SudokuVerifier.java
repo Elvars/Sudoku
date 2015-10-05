@@ -44,9 +44,9 @@ public class SudokuVerifier {
 		chars = candidateSolution.toCharArray();
 		int z = 0;
 		
-		for(int i=0; i<9; i++)
+		for(int i=0; i<1; i++)
 		{
-			for(int y=0; y<9; y++)
+			for(int y=0; y<1; y++)
 			{	
 				allArrays[i][y] = chars[z];
 				z++;
