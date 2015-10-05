@@ -163,3 +163,10 @@ EditAction 1444043988511 TestSudokuVerifier.java 2315 10 29 10
 UnitTestCaseAction 1444044013260 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444044013262 TestSudokuVerifier FAIL
 EditAction 1444044022163 TestSudokuVerifier.java 2315 10 29 10
+UnitTestCaseAction 1444044024291 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444044024292 TestSudokuVerifier OK
+CompilationAction 1444044197870 SudokuVerifier.java
+CompilationAction 1444044197871 SudokuVerifier.java
+UnitTestCaseAction 1444044281849 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444044281850 TestSudokuVerifier OK
+EditAction 1444044287293 TestSudokuVerifier.java 2315 10 29 10

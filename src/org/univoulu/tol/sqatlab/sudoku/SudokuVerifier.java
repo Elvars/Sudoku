@@ -61,10 +61,13 @@ public class SudokuVerifier {
 			
 		}
 		
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 9; i++) 
+		{
 			for(int y = 0; y<9; y++)
+			{
 			   b.append( allArrays[i][y]);
 			}
+		}
 		
 		setti = b.toString();
 		return setti;
@@ -75,18 +78,22 @@ public class SudokuVerifier {
 	public static int checkHorizontal()
 	{
 		String subString;
+		StringBuilder b = new StringBuilder();
 		
-		for(int i=0; i<9; i++)
+		for (int i = 0; i < 9; i++) 
 		{
-			subString = allArrays[i].toString();
-			
-			//System.out.println(allArrays[i].toString());
-			
+			for(int y = 0; y<9; y++)
+			{
+			   b.append( allArrays[i][y]);
+			}
+			subString = b.toString();
 			if(uniqueString(subString)==false)
 			{
 				return 0;
 			}
 		}
+			
+		
 		
 		return 1;
 	}

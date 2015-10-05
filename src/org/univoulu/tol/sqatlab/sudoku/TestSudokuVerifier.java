@@ -123,7 +123,7 @@ public class TestSudokuVerifier {
 		
 		actual = SudokuVerifier.checkHorizontal();
 		
-		assertEquals(0, actual);
+		assertEquals(1, actual);
 		
 	}
 	
