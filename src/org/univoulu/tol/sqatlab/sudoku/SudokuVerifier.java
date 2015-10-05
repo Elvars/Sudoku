@@ -1,5 +1,6 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class SudokuVerifier {
@@ -42,6 +43,8 @@ public class SudokuVerifier {
 		
 		String setti="";
 		
+		StringBuilder b = new StringBuilder();
+		
 		String[] chars = new String[81];
 		chars = candidateSolution.split("");
 		int z = 0;
@@ -51,7 +54,6 @@ public class SudokuVerifier {
 			for(int y=0; y<9; y++)
 			{	
 				allArrays[i][y] = chars[z];
-				setti += chars[z];
 				z++;
 				//System.out.println(allArrays[i][y]);
 				
@@ -59,6 +61,12 @@ public class SudokuVerifier {
 			
 		}
 		
+		for (int i = 0; i < 9; i++) {
+			for(int y = 0; y<9; y++)
+			   b.append( allArrays[i][y]);
+			}
+		
+		setti = b.toString();
 		return setti;
 		
 	}

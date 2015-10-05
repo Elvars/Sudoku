@@ -47,3 +47,9 @@
 1444042007501 regression 1 0 true
 1444042321050 regression 1 0 true
 1444042343392 regression 1 0 true
+1444043783695 refactoring 3 1427 true
+1444043783696 refactoring 3 1427 true
+1444043783697 refactoring 3 1427 true
+1444043783698 refactoring 3 1427 true
+1444043783699 refactoring 3 1427 true
+1444043783700 refactoring 3 1427 true
