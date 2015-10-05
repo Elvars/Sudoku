@@ -141,14 +141,14 @@ public class SudokuVerifier {
 		String subString;
 		StringBuilder b = new StringBuilder();
 		
-		int e = 1;
-		int o = 1;
+		int e = 0;
+		int o = 0;
 		
 		
 		
-			for(int i=e; i<e*3; i++)
+			for(int i=e; i<e; i++)
 			{
-				for(int y=o; y<o*3; y++)
+				for(int y=o; y<e; y++)
 				{
 					b.append( allArrays[i][y]);
 				}
@@ -174,6 +174,8 @@ public class SudokuVerifier {
 	
 	public static boolean uniqueString(String candidateSolution)
 	{
+		
+		
 		HashSet <Character> uniquecharset= new HashSet();
         for(int i=0;i < candidateSolution.length();i++)
         {
