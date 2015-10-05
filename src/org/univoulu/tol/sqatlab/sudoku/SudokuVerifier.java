@@ -41,7 +41,6 @@ public class SudokuVerifier {
 		//char[] chars = new char[81];
 		//chars = candidateSolution.toCharArray();
 		
-		System.out.println(candidateSolution);
 		
 		String setti="";
 		
@@ -92,17 +91,32 @@ public class SudokuVerifier {
 			subString = b.toString();
 
 			
-			if(!uniqueString(subString))
+			if(uniqueString(subString))
 			{
-				return 1;
+				return 0;
 			} 
 		}
 		
 	
 
-		return 0;
+		return 1;
 		
 
+	}
+	
+	
+	public static boolean uniqueString(String candidateSolution)
+	{
+		HashSet < Character> uniquecharset= new HashSet();
+        for(int i=0;i < candidateSolution.length();i++)
+        {
+            result=uniquecharset.add(candidateSolution.charAt(i));
+            if (result == false)
+            	break;
+            
+        }
+        
+        return result;
 	}
 	
 	
@@ -131,18 +145,4 @@ public class SudokuVerifier {
 		}
 	}
 	
-	
-	public static boolean uniqueString(String candidateSolution)
-	{
-		HashSet < Character> uniquecharset= new HashSet();
-        for(int i=0;i < candidateSolution.length();i++)
-        {
-            result=uniquecharset.add(candidateSolution.charAt(i));
-            if (result == false)
-            	break;
-            
-        }
-        
-        return result;
-	}
 }

@@ -212,3 +212,14 @@ UnitTestSessionAction 1444046091337 TestSudokuVerifier OK
 UnitTestCaseAction 1444046116594 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444046116594 TestSudokuVerifier OK
 EditAction 1444046128503 TestSudokuVerifier.java 2417 10 29 10
+UnitTestCaseAction 1444046130862 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444046130863 TestSudokuVerifier OK
+RefactoringAction 1444046192750 SudokuVerifier.java REMOVE checkStringLenght(String) METHOD
+RefactoringAction 1444046192750 SudokuVerifier.java REMOVE isPositive(int) METHOD
+RefactoringAction 1444046197278 SudokuVerifier.java ADD static boolean isPositive(int) METHOD
+RefactoringAction 1444046197279 SudokuVerifier.java ADD static int checkStringLenght(String) METHOD
+UnitTestCaseAction 1444046256841 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444046256842 TestSudokuVerifier OK
+UnitTestCaseAction 1444046285239 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444046285240 TestSudokuVerifier OK
+EditAction 1444046290899 SudokuVerifier.java 2884 6 19 0
