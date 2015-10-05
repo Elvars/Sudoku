@@ -15,6 +15,7 @@ public class TestSudokuVerifier {
 		
 		//arrange
 		candidate = "1";
+		int actual = 0;
 		
 		//act
 		SudokuVerifier.verify(candidate);
