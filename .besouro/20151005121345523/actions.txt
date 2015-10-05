@@ -44,3 +44,6 @@ RefactoringAction 1444039919903 TestSudokuVerifier.java RENAME testFor=>void tes
 RefactoringAction 1444039921419 TestSudokuVerifier.java RENAME testForF=>void testFor FIELD
 RefactoringAction 1444040019177 TestSudokuVerifier.java RENAME testFor=>void testForHorizontal() METHOD
 EditAction 1444040373451 TestSudokuVerifier.java 2274 10 26 9
+UnitTestCaseAction 1444040384366 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444040384367 TestSudokuVerifier OK
+EditAction 1444040417417 TestSudokuVerifier.java 2300 10 27 10
