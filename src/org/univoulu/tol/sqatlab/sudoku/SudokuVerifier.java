@@ -90,6 +90,8 @@ public class SudokuVerifier {
 		
 		subString = b.toString();
 		
+		System.out.println(subString);
+		
 		if(!uniqueString(subString))
 		{
 			return 0;
