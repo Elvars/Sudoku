@@ -321,3 +321,10 @@ RefactoringAction 1444049744487 TestSudokuVerifier.java ADD int candidate/2 FIEL
 RefactoringAction 1444049750996 TestSudokuVerifier.java RENAME candidate/2=>int actual FIELD
 EditAction 1444049781788 TestSudokuVerifier.java 2959 11 36 11
 EditAction 1444049785890 TestSudokuVerifier.java 2955 11 36 11
+UnitTestCaseAction 1444049788039 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444049788040 TestSudokuVerifier OK
+RefactoringAction 1444050063262 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444050065280 TestSudokuVerifier.java RENAME test=>void testFor FIELD
+RefactoringAction 1444050069295 TestSudokuVerifier.java RENAME testFor=>void testFor3x3Grids FIELD
+RefactoringAction 1444050071803 TestSudokuVerifier.java RENAME testFor3x3Grids=>void testFor3x3Grids() METHOD
+EditAction 1444050153509 TestSudokuVerifier.java 3353 12 40 11

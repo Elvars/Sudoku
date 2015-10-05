@@ -91,3 +91,12 @@
 1444049701716 refactoring 1A 49 true
 1444049701717 refactoring 1A 49 true
 1444049715946 regression 2 9 true
+1444049788040 refactoring 3 43 true
+1444049788041 refactoring 2B 43 true
+1444049788042 refactoring 3 43 true
+1444049788043 refactoring 3 43 true
+1444049788044 refactoring 1B 43 true
+1444049788045 refactoring 2B 43 true
+1444049788046 refactoring 3 43 true
+1444049788047 refactoring 1B 43 true
+1444049788048 regression 1 43 true

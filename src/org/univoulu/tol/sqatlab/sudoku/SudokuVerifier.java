@@ -75,7 +75,6 @@ public class SudokuVerifier {
 	public static int checkHorizontal()
 	{
 		
-		System.out.print("\n");
 		
 		String subString;
 		StringBuilder b = new StringBuilder();
