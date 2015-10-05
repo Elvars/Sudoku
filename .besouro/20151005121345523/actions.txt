@@ -258,3 +258,12 @@ EditAction 1444046956545 TestSudokuVerifier.java 2722 11 34 11
 UnitTestCaseAction 1444046957403 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444046957404 TestSudokuVerifier OK
 EditAction 1444046966400 TestSudokuVerifier.java 2720 11 34 11
+CompilationAction 1444046966940 TestSudokuVerifier.java
+RefactoringAction 1444046977083 SudokuVerifier.java ADD static int checkHorizontal()/2 METHOD
+RefactoringAction 1444046982649 SudokuVerifier.java RENAME checkHorizontal()/2=>static int checkV() METHOD
+RefactoringAction 1444046984179 SudokuVerifier.java RENAME checkV()=>static int checkVertical() METHOD
+UnitTestCaseAction 1444047037295 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444047037296 TestSudokuVerifier OK
+UnitTestCaseAction 1444048944862 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444048944863 TestSudokuVerifier OK
+EditAction 1444048956346 TestSudokuVerifier.java 2720 11 34 11

@@ -86,6 +86,35 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
+			//System.out.println(subString);
+			
+			if(!uniqueString(subString))
+			{
+				return 0;
+			}
+			
+			b.setLength(0);
+		}
+		
+		return 1;
+
+	}
+	
+	
+	public static int checkVertical()
+	{
+		String subString;
+		StringBuilder b = new StringBuilder();
+		
+		for (int i = 0; i < 9; i++) 
+		{
+			for(int y = 0; y<9; y++)
+			{
+			   b.append( allArrays[y][i]);
+			}
+			
+			subString = b.toString();
+
 			System.out.println(subString);
 			
 			if(!uniqueString(subString))
