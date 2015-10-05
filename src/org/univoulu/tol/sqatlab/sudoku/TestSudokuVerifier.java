@@ -120,7 +120,7 @@ public class TestSudokuVerifier {
 		
 		SudokuVerifier.checkHorizontal();
 		
-		assertEquals(0,0);
+		assertEquals(1,0);
 		
 	}
 	
