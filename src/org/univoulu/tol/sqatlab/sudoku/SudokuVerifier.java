@@ -74,6 +74,9 @@ public class SudokuVerifier {
 	
 	public static int checkHorizontal()
 	{
+		
+		System.out.print("\n");
+		
 		String subString;
 		StringBuilder b = new StringBuilder();
 		
@@ -86,7 +89,7 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
-			System.out.println(subString);
+			//System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -105,6 +108,8 @@ public class SudokuVerifier {
 	{
 		String subString;
 		StringBuilder b = new StringBuilder();
+		
+		
 		
 		for (int i = 0; i < 9; i++) 
 		{
