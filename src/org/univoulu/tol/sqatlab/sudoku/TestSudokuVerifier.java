@@ -131,5 +131,19 @@ public class TestSudokuVerifier {
 	}
 	
 	
+	@Test
+	public void testForVertical()
+	{
+		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		
+		int actual = 0;
+		SudokuVerifier.splitString(candidate);
+		
+		actual = SudokuVerifier.checkHorizontal();
+		
+		assertEquals(1, actual);
+	}
+	
+	
 
 }
