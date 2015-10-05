@@ -86,15 +86,15 @@ public class SudokuVerifier {
 			{
 			   b.append( allArrays[i][y]);
 			}
-			subString = b.toString();
-			if(uniqueString(subString)==false)
-			{
-				return 0;
-			}
 		}
-			
 		
+		subString = b.toString();
 		
+		if(!uniqueString(subString))
+		{
+			return 0;
+		}
+
 		return 1;
 	}
 	
