@@ -328,3 +328,12 @@ RefactoringAction 1444050065280 TestSudokuVerifier.java RENAME test=>void testFo
 RefactoringAction 1444050069295 TestSudokuVerifier.java RENAME testFor=>void testFor3x3Grids FIELD
 RefactoringAction 1444050071803 TestSudokuVerifier.java RENAME testFor3x3Grids=>void testFor3x3Grids() METHOD
 EditAction 1444050153509 TestSudokuVerifier.java 3353 12 40 11
+CompilationAction 1444050154051 TestSudokuVerifier.java
+RefactoringAction 1444050171355 SudokuVerifier.java ADD boolean checkMiniGridss FIELD
+RefactoringAction 1444050172365 SudokuVerifier.java RENAME checkMiniGridss=>boolean checkMiniGrids FIELD
+RefactoringAction 1444050173392 SudokuVerifier.java RENAME checkMiniGrids=>static boolean checkMiniGrids() METHOD
+CompilationAction 1444050191998 SudokuVerifier.java
+CompilationAction 1444050213845 SudokuVerifier.java
+UnitTestCaseAction 1444050218034 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444050218035 TestSudokuVerifier OK
+EditAction 1444050240129 TestSudokuVerifier.java 3394 12 41 12

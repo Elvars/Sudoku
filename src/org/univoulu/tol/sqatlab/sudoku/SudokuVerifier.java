@@ -134,6 +134,15 @@ public class SudokuVerifier {
 	}
 	
 	
+	public static int checkMiniGrids()
+	{
+		
+		
+		
+		return 1;
+	}
+	
+	
 	public static boolean uniqueString(String candidateSolution)
 	{
 		HashSet < Character> uniquecharset= new HashSet();
