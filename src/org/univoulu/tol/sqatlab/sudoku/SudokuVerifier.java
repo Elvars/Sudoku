@@ -138,33 +138,64 @@ public class SudokuVerifier {
 	{
 		
 		System.out.println("\n");
-		String subString;
+		String subString = null;
 		StringBuilder b = new StringBuilder();
 		
-		int e = 0;
-		int o = 0;
+		boolean first = true;
+		
+		
+		int i = 0;
+		int y = 0;
+		
+		int e = 3;
+		int o = 3;
+		
+		int a = 1;
 		
 		
 		
-			for(int i=e; i<e; i++)
+		for(int z = 0; z<9; z++)
+		{
+			System.out.println(z);
+			
+			if(first)
 			{
-				for(int y=o; y<e; y++)
+				for(i=0; i<e; i++)
 				{
-					b.append( allArrays[i][y]);
+					for(y=0; y<o; y++)
+					{
+						b.append( allArrays[i][y]);
+					}
+				}
+	
+				subString = b.toString();
+				System.out.println(subString);
+				System.out.println("a");
+				b.setLength(0);
+				first = false;
+			}
+			else
+			{
+				
+				for(i=e; i<e+1; i++)
+				{
+					for(y=o; y<o+1; y++)
+					{
+						b.append( allArrays[i][y]);
+					}
+					subString = b.toString();
+					System.out.println(subString);
+					System.out.println("b");
+					b.setLength(0);
 				}
 				
-				subString = b.toString();
 				
-				System.out.println(subString);
 				
-				b.setLength(0);
-				
-				e+=3;
-				o+=3;
 			}
 			
-		
-		
+
+	
+		}
 		
 		
 		

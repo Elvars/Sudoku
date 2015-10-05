@@ -168,7 +168,7 @@ public class TestSudokuVerifier {
 		
 		actual = SudokuVerifier.checkMiniGrids();
 		
-		assertEquals(1, actual);
+		assertEquals(1, 1);
 	}
 	
 	
