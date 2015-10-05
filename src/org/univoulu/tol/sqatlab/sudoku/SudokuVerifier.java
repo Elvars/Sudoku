@@ -40,7 +40,9 @@ public class SudokuVerifier {
 		//char[] chars = new char[81];
 		//chars = candidateSolution.toCharArray();
 		
-		String[] chars = new String[82];
+		String setti="";
+		
+		String[] chars = new String[81];
 		chars = candidateSolution.split("");
 		int z = 0;
 		
@@ -49,13 +51,15 @@ public class SudokuVerifier {
 			for(int y=0; y<9; y++)
 			{	
 				allArrays[i][y] = chars[z];
+				setti += chars[z];
 				z++;
-				System.out.println(allArrays[i][y]);
+				//System.out.println(allArrays[i][y]);
+				
 			}
 			
 		}
 		
-		return allArrays.toString();
+		return setti;
 		
 	}
 	
