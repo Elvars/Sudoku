@@ -38,9 +38,6 @@ public class SudokuVerifier {
 	
 	public static String splitString(String candidateSolution)
 	{
-		//char[] chars = new char[81];
-		//chars = candidateSolution.toCharArray();
-		
 		
 		String setti="";
 		
@@ -56,7 +53,6 @@ public class SudokuVerifier {
 			{	
 				allArrays[i][y] = chars[z];
 				z++;
-				//System.out.println(allArrays[i][y]);
 				
 			}
 			
@@ -100,10 +96,7 @@ public class SudokuVerifier {
 			b.setLength(0);
 		}
 		
-	
-
 		return 1;
-		
 
 	}
 	
