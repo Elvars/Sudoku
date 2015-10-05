@@ -5,3 +5,6 @@ UnitTestSessionAction 1444036558626 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444036645597 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444036645599 TestSudokuVerifier FAIL
 EditAction 1444036682909 TestSudokuVerifier.java 2020 9 23 9
+UnitTestCaseAction 1444036685777 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444036685778 TestSudokuVerifier FAIL
+EditAction 1444036708106 SudokuVerifier.java 1977 5 9 0
