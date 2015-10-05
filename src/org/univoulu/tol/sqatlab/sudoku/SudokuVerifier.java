@@ -86,7 +86,7 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
-			//System.out.println(subString);
+			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -115,7 +115,7 @@ public class SudokuVerifier {
 			
 			subString = b.toString();
 
-			System.out.println(subString);
+			//System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
