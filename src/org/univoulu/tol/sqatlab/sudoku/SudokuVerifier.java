@@ -147,9 +147,9 @@ public class SudokuVerifier {
 		for(int z=0; z<9; z++)
 		{
 		
-			for(int i=e; i<e; i++)
+			for(int i=e; i<9; i++)
 			{
-				for(int y=o; y<o; y++)
+				for(int y=o; y<9; y++)
 				{
 					b.append( allArrays[i][y]);
 				}
