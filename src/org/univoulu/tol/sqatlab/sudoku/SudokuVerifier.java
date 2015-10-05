@@ -60,6 +60,24 @@ public class SudokuVerifier {
 	}
 	
 	
+	public static int checkHorizontal()
+	{
+		String subString;
+		
+		for(int i=0; i<9; i++)
+		{
+			subString = allArrays[i].toString();
+			
+			if(!uniqueString(subString))
+			{
+				return 0;
+			}
+		}
+		
+		return 1;
+	}
+	
+	
 	public static boolean isPositive(int candidateNumber)
 	{
 		if(candidateNumber<0)

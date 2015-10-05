@@ -25,3 +25,10 @@ UnitTestSessionAction 1444037514543 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444037551599 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444037551600 TestSudokuVerifier FAIL
 EditAction 1444037611970 TestSudokuVerifier.java 2021 9 23 9
+UnitTestCaseAction 1444037614175 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444037614176 TestSudokuVerifier OK
+RefactoringAction 1444039449747 SudokuVerifier.java ADD int s FIELD
+RefactoringAction 1444039450784 SudokuVerifier.java REMOVE s FIELD
+RefactoringAction 1444039459318 SudokuVerifier.java ADD int checkHorizontal FIELD
+RefactoringAction 1444039461388 SudokuVerifier.java RENAME checkHorizontal=>static int checkHorizontal() METHOD
+EditAction 1444039780774 TestSudokuVerifier.java 2035 9 23 9
