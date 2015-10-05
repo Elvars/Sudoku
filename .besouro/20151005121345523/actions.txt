@@ -32,3 +32,15 @@ RefactoringAction 1444039450784 SudokuVerifier.java REMOVE s FIELD
 RefactoringAction 1444039459318 SudokuVerifier.java ADD int checkHorizontal FIELD
 RefactoringAction 1444039461388 SudokuVerifier.java RENAME checkHorizontal=>static int checkHorizontal() METHOD
 EditAction 1444039780774 TestSudokuVerifier.java 2035 9 23 9
+UnitTestCaseAction 1444039784258 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444039784262 TestSudokuVerifier OK
+UnitTestCaseAction 1444039784272 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444039784282 TestSudokuVerifier OK
+UnitTestCaseAction 1444039784272 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444039784285 TestSudokuVerifier OK
+RefactoringAction 1444039892798 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444039912871 TestSudokuVerifier.java RENAME test=>void testFor FIELD
+RefactoringAction 1444039919903 TestSudokuVerifier.java RENAME testFor=>void testForF FIELD
+RefactoringAction 1444039921419 TestSudokuVerifier.java RENAME testForF=>void testFor FIELD
+RefactoringAction 1444040019177 TestSudokuVerifier.java RENAME testFor=>void testForHorizontal() METHOD
+EditAction 1444040373451 TestSudokuVerifier.java 2274 10 26 9
