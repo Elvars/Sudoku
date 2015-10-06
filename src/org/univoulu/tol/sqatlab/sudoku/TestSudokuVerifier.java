@@ -22,7 +22,7 @@ public class TestSudokuVerifier {
 		actual = SudokuVerifier.verify(candidate);
 		
 		//assert
-		assertEquals(0, actual);
+		assertEquals(-5, actual);
 	}
 	
 	@Test

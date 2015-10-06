@@ -70,3 +70,10 @@ UnitTestSessionAction 1444119927024 TestSudokuVerifier FAIL
 RefactoringAction 1444119944527 TestSudokuVerifier.java RENAME verifySudokuStringReturns1()=>void verifySudokuStringReturns0()/2 METHOD
 RefactoringAction 1444119963643 TestSudokuVerifier.java RENAME verifySudokuStringReturns0()/2=>void verifySudokuStringReturns1() METHOD
 EditAction 1444119963746 TestSudokuVerifier.java 3485 12 41 12
+UnitTestCaseAction 1444119968451 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444119968452 TestSudokuVerifier.verifySudokuStringReturns1 FAIL
+UnitTestCaseAction 1444120019659 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120019660 TestSudokuVerifier.verifySudokuStringReturns1 FAIL
+UnitTestCaseAction 1444120087284 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120087285 TestSudokuVerifier.verifySudokuStringReturns1 FAIL
+EditAction 1444120100482 TestSudokuVerifier.java 3486 12 41 12
