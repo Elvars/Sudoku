@@ -141,64 +141,105 @@ public class SudokuVerifier {
 		String subString = null;
 		StringBuilder b = new StringBuilder();
 		
-		boolean first = true;
-		
-		
+
 		int i = 0;
 		int y = 0;
 		
 		int e = 3;
 		int o = 3;
 		
-		int a = 1;
-		
-		
-		
-		for(int z = 0; z<9; z++)
-		{
-			System.out.println(z);
-			
-			if(first)
-			{
-				for(i=0; i<e; i++)
-				{
-					for(y=0; y<o; y++)
-					{
-						b.append( allArrays[i][y]);
-					}
-				}
-	
-				subString = b.toString();
-				System.out.println(subString);
-				System.out.println("a");
-				b.setLength(0);
-				first = false;
-			}
-			else
-			{
-				
-				for(i=e; i<e+1; i++)
-				{
-					for(y=o; y<o+1; y++)
-					{
-						b.append( allArrays[i][y]);
-					}
-					subString = b.toString();
-					System.out.println(subString);
-					System.out.println("b");
-					b.setLength(0);
-				}
-				
-				
-				
-			}
-			
 
+		
+		for(int z = 0; z<3; z++)
+		{
+	
+			for(i=e-3; i<e; i++)
+			{
+				for(y=0; y<3; y++)
+				{
+					b.append( allArrays[i][y]);
+				}
+			}
+			
+			e+=3;
+			
+			
+			subString = b.toString();
+			System.out.println(subString);
+			
+			if(!uniqueString(subString))
+			{
+				return 0;
+			}
+			
+			b.setLength(0);
 	
 		}
 		
+		System.out.println(e);
+		
+		e=3;
+		o=6;
 		
 		
+		for(int z = 0; z<3; z++)
+		{
+	
+			for(i=e-3; i<e; i++)
+			{
+				for(y=o-3; y<o; y++)
+				{
+					b.append( allArrays[i][y]);
+				}
+			}
+			
+			e+=3;
+			
+			subString = b.toString();
+			System.out.println(subString);
+			
+			if(!uniqueString(subString))
+			{
+				return 0;
+			}
+			
+			b.setLength(0);
+	
+		}
+		
+		System.out.println(e);
+		
+		e=3;
+		o=9;
+		
+		
+		for(int z = 0; z<3; z++)
+		{
+	
+			for(i=e-3; i<e; i++)
+			{
+				for(y=o-3; y<o; y++)
+				{
+					b.append( allArrays[i][y]);
+				}
+			}
+			
+			e+=3;
+			
+			
+			subString = b.toString();
+			System.out.println(subString);
+			
+			if(!uniqueString(subString))
+			{
+				return 0;
+			}
+			
+			b.setLength(0);
+	
+		}
+		
+
 		return 1;
 	}
 	
