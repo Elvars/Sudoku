@@ -15,3 +15,7 @@ EditAction 1444118383667 TestSudokuVerifier.java 3394 12 41 12
 UnitTestCaseAction 1444118385891 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444118385892 TestSudokuVerifier FAIL
 EditAction 1444118391199 TestSudokuVerifier.java 3394 12 41 12
+UnitTestCaseAction 1444118393382 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444118393383 TestSudokuVerifier OK
+RefactoringAction 1444118715823 TestSudokuVerifier.java RENAME testStringSplitter()=>void testStringToArraysSplitter() METHOD
+EditAction 1444118725308 TestSudokuVerifier.java 3410 12 41 12

@@ -84,12 +84,12 @@ public class TestSudokuVerifier {
 	
 	
 	@Test
-	public void testStringSplitter()
+	public void testStringToArraysSplitter()
 	{
 		String actualString;
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		actualString = SudokuVerifier.splitString(candidate);
+		actualString = SudokuVerifier.splitStringToArrays(candidate);
 		
 		
 		
