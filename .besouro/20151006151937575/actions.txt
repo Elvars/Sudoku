@@ -49,3 +49,6 @@ RefactoringAction 1444134932403 TestSudokuVerifier.java ADD void verifySudokuStr
 EditAction 1444134933979 TestSudokuVerifier.java 3856 12 43 12
 EditAction 1444134942049 TestSudokuVerifier.java 3873 12 42 12
 EditAction 1444134944000 TestSudokuVerifier.java 3871 12 43 12
+UnitTestCaseAction 1444134946388 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444134946390 TestSudokuVerifier FAIL
+EditAction 1444134955427 TestSudokuVerifier.java 3871 12 43 12
