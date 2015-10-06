@@ -291,8 +291,14 @@ public class SudokuVerifier {
 	
 	public static boolean isPositive(String candidateSolution)
 	{
+		try{
+			int candidateNumber = Integer.parseInt(candidateSolution);
+		}
+		catch(NumberFormatException e)
+		{
+			
+		}
 		
-		int candidateNumber = Integer.parseInt(candidateSolution);
 		
 		if(candidateNumber<0)
 		{
