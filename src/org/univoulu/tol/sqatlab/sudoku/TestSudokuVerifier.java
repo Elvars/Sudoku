@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 	public int actual;
 	
 	@Test
-	public void verifySudokuStringReturns0() {
+	public void verifySudokuStringReturns1() {
 		
 		//arrange
 		candidate = "1";
@@ -26,7 +26,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void verifySudokuStringReturns1() {
+	public void verifySudokuStringReturns0() {
 		
 		//arrange
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -36,7 +36,7 @@ public class TestSudokuVerifier {
 		actual = SudokuVerifier.verify(candidate);
 		
 		//assert
-		assertEquals(1, actual);
+		assertEquals(0, actual);
 	}
 	
 	
