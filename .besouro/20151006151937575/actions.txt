@@ -32,3 +32,7 @@ EditAction 1444134533512 TestSudokuVerifier.java 3863 12 43 12
 EditAction 1444134579330 TestSudokuVerifier.java 3867 12 43 12
 EditAction 1444134608621 TestSudokuVerifier.java 3868 12 43 12
 EditAction 1444134622228 TestSudokuVerifier.java 3872 12 43 12
+UnitTestCaseAction 1444134625635 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444134625636 TestSudokuVerifier OK
+RefactoringAction 1444134681244 SudokuVerifier.java REMOVE import java.util.Arrays IMPORT
+EditAction 1444134827304 TestSudokuVerifier.java 3850 12 43 12

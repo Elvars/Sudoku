@@ -1,7 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.Arrays;
 import java.util.HashSet;
+
 
 public class SudokuVerifier {
 	
@@ -22,7 +22,6 @@ public class SudokuVerifier {
 	
 	
 	public static int verify(String candidateSolution) {
-		
 		
 		if(checkStringLenght(candidateSolution)==1)
 		{
@@ -103,9 +102,7 @@ public class SudokuVerifier {
 	
 	
 	public static int checkHorizontal()
-	{
-		System.out.println("\n");
-		
+	{	
 		String subString;
 		StringBuilder b = new StringBuilder();
 		
@@ -138,8 +135,6 @@ public class SudokuVerifier {
 		String subString;
 		StringBuilder b = new StringBuilder();
 		
-		
-		
 		for (int i = 0; i < 9; i++) 
 		{
 			for(int y = 0; y<9; y++)
@@ -148,8 +143,6 @@ public class SudokuVerifier {
 			}
 			
 			subString = b.toString();
-
-			//System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -167,19 +160,15 @@ public class SudokuVerifier {
 	public static int checkMiniGrids()
 	{
 		
-		System.out.println("\n");
 		String subString = null;
 		StringBuilder b = new StringBuilder();
 		
-
 		int i = 0;
 		int y = 0;
 		
 		int e = 3;
 		int o = 3;
-		
-
-		
+				
 		for(int z = 0; z<3; z++)
 		{
 	
@@ -254,7 +243,6 @@ public class SudokuVerifier {
 			
 			e+=3;
 			
-			
 			subString = b.toString();
 			System.out.println(subString);
 			
@@ -267,15 +255,13 @@ public class SudokuVerifier {
 	
 		}
 		
-
 		return 1;
 	}
 	
 	
 	public static boolean uniqueString(String candidateSolution)
 	{
-		
-		
+
 		HashSet <Character> uniquecharset= new HashSet();
         for(int i=0;i < candidateSolution.length();i++)
         {
@@ -298,8 +284,8 @@ public class SudokuVerifier {
 		    	  return 0;
 		      }    
 		}
+		
 		return 1;
-
 	}
 	
 	
