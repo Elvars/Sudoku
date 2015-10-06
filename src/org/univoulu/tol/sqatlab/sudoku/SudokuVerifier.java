@@ -308,7 +308,15 @@ public class SudokuVerifier {
 //			return false;
 //		}
 		
+		for(int i=0; i<candidateSolution.length(); i++)
+		{
+			if(candidateSolution.charAt(i)<0 || candidateSolution.charAt(i)>9)
+			{
+				return false;
+			}
+		}
 		
+		return true;
 		
 	}
 	
