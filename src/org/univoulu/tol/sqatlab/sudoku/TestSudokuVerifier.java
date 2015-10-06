@@ -68,7 +68,7 @@ public class TestSudokuVerifier {
 		
 		actual = SudokuVerifier.checkStringLenght(candidate);
 		
-		assertEquals(0, actual);
+		assertEquals(1, actual);
 	}
 	
 	
