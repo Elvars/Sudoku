@@ -126,7 +126,7 @@ public class TestSudokuVerifier {
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
 		actual = 0;
-		SudokuVerifier.splitString(candidate);
+		SudokuVerifier.splitStringToArrays(candidate);
 		
 		actual = SudokuVerifier.checkHorizontal();
 		
@@ -146,7 +146,7 @@ public class TestSudokuVerifier {
 		
 		
 		actual = 0;
-		SudokuVerifier.splitString(candidate);
+		SudokuVerifier.splitStringToArrays(candidate);
 		
 		actual = SudokuVerifier.checkVertical();
 		
@@ -164,7 +164,7 @@ public class TestSudokuVerifier {
 		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 					
 		actual = 0;
-		SudokuVerifier.splitString(candidate);
+		SudokuVerifier.splitStringToArrays(candidate);
 		
 		actual = SudokuVerifier.checkMiniGrids();
 		

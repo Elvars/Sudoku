@@ -36,7 +36,7 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static String splitString(String candidateSolution)
+	public static String splitStringToArrays(String candidateSolution)
 	{
 		
 		String setti="";

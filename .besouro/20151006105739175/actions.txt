@@ -19,3 +19,9 @@ UnitTestCaseAction 1444118393382 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444118393383 TestSudokuVerifier OK
 RefactoringAction 1444118715823 TestSudokuVerifier.java RENAME testStringSplitter()=>void testStringToArraysSplitter() METHOD
 EditAction 1444118725308 TestSudokuVerifier.java 3410 12 41 12
+CompilationAction 1444118725954 TestSudokuVerifier.java
+RefactoringAction 1444118818977 SudokuVerifier.java RENAME splitString(String)=>static String splitStringToArrays(String) METHOD
+CompilationAction 1444118819483 TestSudokuVerifier.java
+CompilationAction 1444118835229 TestSudokuVerifier.java
+CompilationAction 1444118835404 TestSudokuVerifier.java
+EditAction 1444118841023 TestSudokuVerifier.java 3434 12 41 12
