@@ -26,8 +26,8 @@ public class SudokuVerifier {
 		
 		if(checkStringLenght(candidateSolution)==1)
 		{
-//			if(isPositive(candidateSolution))
-//			{
+			if(isPositive(candidateSolution))
+			{
 				splitStringToArrays(candidateSolution);
 				
 				if(checkMiniGrids()==1)
@@ -52,11 +52,11 @@ public class SudokuVerifier {
 				{
 					return -2;
 				}
-//			}
-//			else
-//			{
-//				return -1;
-//			}
+			}
+			else
+			{
+				return -1;
+			}
 		}
 		else
 		{
@@ -291,22 +291,22 @@ public class SudokuVerifier {
 	
 	public static boolean isPositive(String candidateSolution)
 	{
-		try{
-			int candidateNumber = Integer.parseInt(candidateSolution);
-			
-			if(candidateNumber<0)
-			{
-				return false;
-			}
-			else
-			{
-				return true;
-			}
-		}
-		catch(NumberFormatException e)
-		{
-			return false;
-		}
+//		try{
+//			int candidateNumber = Integer.parseInt(candidateSolution);
+//			
+//			if(candidateNumber<0)
+//			{
+//				return false;
+//			}
+//			else
+//			{
+//				return true;
+//			}
+//		}
+//		catch(NumberFormatException e)
+//		{
+//			return false;
+//		}
 		
 		
 		
