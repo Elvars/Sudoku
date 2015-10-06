@@ -122,3 +122,14 @@ EditAction 1444121402227 TestSudokuVerifier.java 3615 12 41 12
 UnitTestCaseAction 1444121404676 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444121404677 TestSudokuVerifier FAIL
 EditAction 1444121682009 TestSudokuVerifier.java 3717 12 37 11
+CompilationAction 1444121682424 TestSudokuVerifier.java
+CompilationAction 1444121682425 TestSudokuVerifier.java
+CompilationAction 1444121682425 TestSudokuVerifier.java
+CompilationAction 1444121684515 TestSudokuVerifier.java
+CompilationAction 1444121684516 TestSudokuVerifier.java
+CompilationAction 1444121684517 TestSudokuVerifier.java
+UnitTestCaseAction 1444121686601 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444121686602 TestSudokuVerifier OK
+UnitTestCaseAction 1444130206871 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444130206872 TestSudokuVerifier OK
+EditAction 1444130338278 TestSudokuVerifier.java 3825 12 41 12
