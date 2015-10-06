@@ -5,8 +5,6 @@ import java.util.HashSet;
 
 public class SudokuVerifier {
 	
-	public static String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-
 	public static String rowOne[] = new String[9];
 	public static String rowTwo[] = new String[9];
 	public static String rowThree[] = new String[9];
@@ -28,8 +26,8 @@ public class SudokuVerifier {
 		
 		if(checkStringLenght(candidateSolution)==1)
 		{
-			if(isPositive(candidateSolution))
-			{
+//			if(isPositive(candidateSolution))
+//			{
 				splitStringToArrays(candidateSolution);
 				
 				if(checkMiniGrids()==1)
@@ -54,11 +52,11 @@ public class SudokuVerifier {
 				{
 					return -2;
 				}
-			}
-			else
-			{
-				return -1;
-			}
+//			}
+//			else
+//			{
+//				return -1;
+//			}
 		}
 		else
 		{

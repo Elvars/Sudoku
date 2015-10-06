@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 	public int actual;
 	
 	@Test
-	public void verifySudokuStringReturns-5() {
+	public void verifySudokuStringReturnsMinusFive() {
 		
 		//arrange
 		candidate = "1";
@@ -29,7 +29,7 @@ public class TestSudokuVerifier {
 	public void verifySudokuStringReturns0() {
 		
 		//arrange
-		candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		candidate = "-417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		actual = 0;
 		
 		//act

@@ -81,3 +81,17 @@ UnitTestCaseAction 1444120103194 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444120103195 TestSudokuVerifier FAIL
 RefactoringAction 1444120207054 SudokuVerifier.java REMOVE correctSolution FIELD
 EditAction 1444120383637 TestSudokuVerifier.java 3487 11 37 11
+CompilationAction 1444120385093 TestSudokuVerifier.java
+CompilationAction 1444120385094 TestSudokuVerifier.java
+CompilationAction 1444120385094 TestSudokuVerifier.java
+CompilationAction 1444120385095 TestSudokuVerifier.java
+CompilationAction 1444120385095 TestSudokuVerifier.java
+CompilationAction 1444120393713 TestSudokuVerifier.java
+CompilationAction 1444120393713 TestSudokuVerifier.java
+UnitTestCaseAction 1444120404044 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120404045 TestSudokuVerifier FAIL
+CompilationAction 1444120435559 SudokuVerifier.java
+CompilationAction 1444120445504 SudokuVerifier.java
+UnitTestCaseAction 1444120447281 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444120447281 TestSudokuVerifier OK
+EditAction 1444120561341 TestSudokuVerifier.java 3495 12 41 12
