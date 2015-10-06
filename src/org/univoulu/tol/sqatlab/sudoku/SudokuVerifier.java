@@ -261,7 +261,7 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static boolean isPositive(String candidateSolution
+	public static boolean isPositive(String candidateSolution)
 	{
 		
 		int candidateNumber = Integer.parseInt(candidateSolution);

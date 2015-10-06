@@ -34,3 +34,6 @@ UnitTestSessionAction 1444118886483 TestSudokuVerifier FAIL
 EditAction 1444118888720 TestSudokuVerifier.java 3462 12 41 12
 RefactoringAction 1444118917294 SudokuVerifier.java RENAME isPositive(int)=>static boolean isPositive(String) METHOD
 EditAction 1444118937266 SudokuVerifier.java 4718 8 42 0
+CompilationAction 1444118937814 SudokuVerifier.java
+CompilationAction 1444118937815 TestSudokuVerifier.java
+EditAction 1444118939566 SudokuVerifier.java 4719 8 42 0
