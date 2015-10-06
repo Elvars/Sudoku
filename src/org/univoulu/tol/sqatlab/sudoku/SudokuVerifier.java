@@ -291,30 +291,16 @@ public class SudokuVerifier {
 	
 	public static int isPositive(String candidateSolution)
 	{
-//		try{
-//			int candidateNumber = Integer.parseInt(candidateSolution);
-//			
-//			if(candidateNumber<0)
-//			{
-//				return false;
-//			}
-//			else
-//			{
-//				return true;
-//			}
-//		}
-//		catch(NumberFormatException e)
-//		{
-//			return false;
-//		}
-		for (int i = 0; i < candidateSolution.length(); i++) {
+		for (int i = 0; i < candidateSolution.length(); i++) 
+		{
 		      if (!Character.isDigit(candidateSolution.charAt(i)))
-		        return 0;
-		    }
-		    return 1;
-		
-		
+		      {
+		    	  return 0;
+		      }
+		        
+		}
 		return 1;
+		
 		
 	}
 	
