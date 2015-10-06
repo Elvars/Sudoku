@@ -65,7 +65,7 @@ public class TestSudokuVerifier {
 		
 		actual = SudokuVerifier.isPositive(candidate);
 		
-		assertEquals(1, actual);
+		assertEquals(0, actual);
 		
 	}
 	
