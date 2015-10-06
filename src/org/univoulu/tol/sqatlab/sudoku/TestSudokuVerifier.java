@@ -50,7 +50,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testForPositiveNumber()
 	{
-		candidate="221211212";
+		candidate="-221211212";
 		
 		actual = SudokuVerifier.isPositive(candidate);
 		
