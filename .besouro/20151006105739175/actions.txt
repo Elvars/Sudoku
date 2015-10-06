@@ -77,3 +77,7 @@ UnitTestSessionAction 1444120019660 TestSudokuVerifier.verifySudokuStringReturns
 UnitTestCaseAction 1444120087284 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444120087285 TestSudokuVerifier.verifySudokuStringReturns1 FAIL
 EditAction 1444120100482 TestSudokuVerifier.java 3486 12 41 12
+UnitTestCaseAction 1444120103194 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120103195 TestSudokuVerifier FAIL
+RefactoringAction 1444120207054 SudokuVerifier.java REMOVE correctSolution FIELD
+EditAction 1444120383637 TestSudokuVerifier.java 3487 11 37 11

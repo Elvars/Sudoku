@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 	public int actual;
 	
 	@Test
-	public void verifySudokuStringReturns1() {
+	public void verifySudokuStringReturns-5() {
 		
 		//arrange
 		candidate = "1";
