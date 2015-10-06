@@ -2,3 +2,10 @@
 1444118376886 refactoring 1A 15 true
 1444118376887 refactoring 1A 15 true
 1444118393383 regression 2 9 true
+1444118878538 refactoring 1B 162 true
+1444118878539 regression 1 162 true
+1444118878540 regression 2 162 true
+1444118878541 refactoring 3 162 true
+1444118878542 refactoring 2B 162 true
+1444118878543 refactoring 3 162 true
+1444118878544 refactoring 2B 162 true

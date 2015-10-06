@@ -26,3 +26,6 @@ CompilationAction 1444118835229 TestSudokuVerifier.java
 CompilationAction 1444118835404 TestSudokuVerifier.java
 EditAction 1444118841023 TestSudokuVerifier.java 3434 12 41 12
 EditAction 1444118875223 TestSudokuVerifier.java 3462 12 41 12
+UnitTestCaseAction 1444118878537 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444118878538 TestSudokuVerifier OK
+EditAction 1444118884798 TestSudokuVerifier.java 3462 12 41 12
