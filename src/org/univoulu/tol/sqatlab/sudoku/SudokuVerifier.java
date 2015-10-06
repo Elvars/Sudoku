@@ -293,21 +293,23 @@ public class SudokuVerifier {
 	{
 		try{
 			int candidateNumber = Integer.parseInt(candidateSolution);
+			
+			if(candidateNumber<0)
+			{
+				return false;
+			}
+			else
+			{
+				return true;
+			}
 		}
 		catch(NumberFormatException e)
 		{
-			
-		}
-		
-		
-		if(candidateNumber<0)
-		{
 			return false;
 		}
-		else
-		{
-			return true;
-		}
+		
+		
+		
 	}
 	
 	
