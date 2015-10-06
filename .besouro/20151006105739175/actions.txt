@@ -49,3 +49,19 @@ EditAction 1444119028584 TestSudokuVerifier.java 3485 12 41 12
 UnitTestCaseAction 1444119030442 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444119030443 TestSudokuVerifier FAIL
 EditAction 1444119036018 TestSudokuVerifier.java 3485 12 41 12
+UnitTestCaseAction 1444119038167 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444119038168 TestSudokuVerifier OK
+UnitTestCaseAction 1444119134187 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444119134188 TestSudokuVerifier OK
+CompilationAction 1444119333247 SudokuVerifier.java
+CompilationAction 1444119431764 SudokuVerifier.java
+CompilationAction 1444119431916 SudokuVerifier.java
+CompilationAction 1444119518549 SudokuVerifier.java
+CompilationAction 1444119690390 SudokuVerifier.java
+CompilationAction 1444119690532 SudokuVerifier.java
+CompilationAction 1444119812446 SudokuVerifier.java
+CompilationAction 1444119812608 SudokuVerifier.java
+CompilationAction 1444119836989 SudokuVerifier.java
+CompilationAction 1444119837152 SudokuVerifier.java
+CompilationAction 1444119855792 SudokuVerifier.java
+EditAction 1444119920377 SudokuVerifier.java 5031 8 41 0

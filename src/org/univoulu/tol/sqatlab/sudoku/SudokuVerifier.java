@@ -21,18 +21,49 @@ public class SudokuVerifier {
 	
 	static boolean result=false;
 	
+	
+	
 	public static int verify(String candidateSolution) {
 		
 		
-		if(candidateSolution==correctSolution)
+		if(checkStringLenght(candidateSolution)==1)
 		{
-			// returns 1 if the candidate solution is correct
-			return 1;
+			if(isPositive(candidateSolution))
+			{
+				splitStringToArrays(candidateSolution);
+				
+				if(checkMiniGrids()==1)
+				{
+					if(checkHorizontal()==1)
+					{
+						if(checkVertical()==1)
+						{
+							return 0;
+						}
+						else
+						{
+							return -4;
+						}
+					}
+					else
+					{
+						return -3;
+					}
+				}
+				else
+				{
+					return -2;
+				}
+			}
+			else
+			{
+				return -1;
+			}
+
+			
 		}
-		else
-		{
-			return 0;
-		}
+		
+		return 5;
 	}
 	
 	
@@ -176,7 +207,6 @@ public class SudokuVerifier {
 	
 		}
 		
-		System.out.println(e);
 		
 		e=3;
 		o=6;
@@ -207,7 +237,6 @@ public class SudokuVerifier {
 	
 		}
 		
-		System.out.println(e);
 		
 		e=3;
 		o=9;
