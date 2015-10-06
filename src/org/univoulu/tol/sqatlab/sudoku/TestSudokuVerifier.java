@@ -11,19 +11,6 @@ public class TestSudokuVerifier {
 	public int number;
 	public int actual;
 	
-	@Test
-	public void verifySudokuStringReturnsMinusFive() {
-		
-		//arrange
-		candidate = "1";
-		actual = 0;
-		
-		//act
-		actual = SudokuVerifier.verify(candidate);
-		
-		//assert
-		assertEquals(-5, actual);
-	}
 	
 	@Test
 	public void verifySudokuStringReturns0() {
@@ -43,6 +30,21 @@ public class TestSudokuVerifier {
 		
 		//assert
 		assertEquals(0, actual);
+	}
+	
+	
+	@Test
+	public void verifySudokuStringReturnsMinusFive() {
+		
+		//arrange
+		candidate = "1";
+		actual = 0;
+		
+		//act
+		actual = SudokuVerifier.verify(candidate);
+		
+		//assert
+		assertEquals(-5, actual);
 	}
 	
 	

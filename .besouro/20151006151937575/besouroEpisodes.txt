@@ -1,3 +1,7 @@
 1444134467495 production 1 489 false
 1444134467496 refactoring 2A 489 true
 1444134625636 refactoring 2A 133 true
+1444134832082 refactoring 2B 150 true
+1444134832083 regression 1 150 true
+1444134861234 regression 1 0 true
+1444134889764 regression 1 0 true

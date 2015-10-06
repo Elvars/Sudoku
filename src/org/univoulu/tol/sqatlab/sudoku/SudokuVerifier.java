@@ -114,8 +114,6 @@ public class SudokuVerifier {
 			}
 			
 			subString = b.toString();
-
-			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -182,9 +180,7 @@ public class SudokuVerifier {
 			
 			e+=3;
 			
-			
 			subString = b.toString();
-			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -214,7 +210,6 @@ public class SudokuVerifier {
 			e+=3;
 			
 			subString = b.toString();
-			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{
@@ -244,7 +239,6 @@ public class SudokuVerifier {
 			e+=3;
 			
 			subString = b.toString();
-			System.out.println(subString);
 			
 			if(!uniqueString(subString))
 			{

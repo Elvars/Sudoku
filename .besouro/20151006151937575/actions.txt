@@ -36,3 +36,14 @@ UnitTestCaseAction 1444134625635 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444134625636 TestSudokuVerifier OK
 RefactoringAction 1444134681244 SudokuVerifier.java REMOVE import java.util.Arrays IMPORT
 EditAction 1444134827304 TestSudokuVerifier.java 3850 12 43 12
+UnitTestCaseAction 1444134832081 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444134832082 TestSudokuVerifier OK
+UnitTestCaseAction 1444134861232 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444134861234 TestSudokuVerifier OK
+UnitTestCaseAction 1444134889762 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444134889764 TestSudokuVerifier OK
+RefactoringAction 1444134904349 TestSudokuVerifier.java REMOVE testCandidateSolutionLenghtReturns1() METHOD
+RefactoringAction 1444134912804 TestSudokuVerifier.java ADD void testCandidateSolutionLenghtReturns1() METHOD
+RefactoringAction 1444134924839 TestSudokuVerifier.java REMOVE verifySudokuStringReturns0() METHOD
+RefactoringAction 1444134932403 TestSudokuVerifier.java ADD void verifySudokuStringReturns0() METHOD
+EditAction 1444134933979 TestSudokuVerifier.java 3856 12 43 12
