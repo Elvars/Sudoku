@@ -53,7 +53,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testForNegativeNumber()
 	{
-		candidate="-2322";
+		candidate="2322";
 		
 		assertFalse("false", SudokuVerifier.isPositive(candidate));
 		
