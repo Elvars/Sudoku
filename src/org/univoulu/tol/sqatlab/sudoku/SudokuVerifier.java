@@ -289,7 +289,7 @@ public class SudokuVerifier {
 	}
 	
 	
-	public static boolean isPositive(String candidateSolution)
+	public static int isPositive(String candidateSolution)
 	{
 //		try{
 //			int candidateNumber = Integer.parseInt(candidateSolution);
@@ -312,11 +312,11 @@ public class SudokuVerifier {
 		{
 			if(candidateSolution.charAt(i)<0 || candidateSolution.charAt(i)>9)
 			{
-				return false;
+				return 0;
 			}
 		}
 		
-		return true;
+		return 1;
 		
 	}
 	
