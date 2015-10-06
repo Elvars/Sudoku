@@ -296,12 +296,10 @@ public class SudokuVerifier {
 		      if (!Character.isDigit(candidateSolution.charAt(i)))
 		      {
 		    	  return 0;
-		      }
-		        
+		      }    
 		}
 		return 1;
-		
-		
+
 	}
 	
 	
