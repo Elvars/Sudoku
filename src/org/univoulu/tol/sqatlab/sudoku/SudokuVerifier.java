@@ -26,7 +26,7 @@ public class SudokuVerifier {
 		
 		if(checkStringLenght(candidateSolution)==1)
 		{
-			if(isPositive(candidateSolution))
+			if(isPositive(candidateSolution)==1)
 			{
 				splitStringToArrays(candidateSolution);
 				
